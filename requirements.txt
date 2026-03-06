@@ -1,0 +1,10 @@
+# 基础依赖（PyCharm打开后，右键选择“Install Requirements”即可安装）
+pytest==7.4.3
+playwright==1.40.0
+allure-pytest==2.13.2
+pymysql==1.1.0
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Playwright浏览器驱动（安装依赖后，执行命令：playwright install）
+playwright==1.40.0
