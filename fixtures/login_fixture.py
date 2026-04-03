@@ -26,7 +26,7 @@ def login_success_page(playwright_page: Page) -> Page:
         # 输入登录数据（从配置获取，无硬编码）
         email_panel = page.locator("#pane-email")
         email_panel.wait_for(timeout=GLOBAL_TIMEOUT)
-        email_panel.get_by_placeholder("example@7link.com").fill(DEFAULT_LOGIN_DATA["email"])
+        email_panel.get_by_placeholder("请输入邮箱").fill(DEFAULT_LOGIN_DATA["email"])
         email_panel.get_by_placeholder("请输入密码").fill(DEFAULT_LOGIN_DATA["password"])
         if DEFAULT_LOGIN_DATA["remember_me"]:
             email_panel.get_by_label("记住我").check()
@@ -36,7 +36,7 @@ def login_success_page(playwright_page: Page) -> Page:
         page.get_by_role("button", name="登录").click()
         logger.info("点击登录按钮")
 
-        # 滑动验证
+        # 滑动安全验证
 
         # 验证登录成功
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)
@@ -55,4 +55,5 @@ def login_success_page(playwright_page: Page) -> Page:
             logger.info("✅ Fixture后置清理：退出登录成功")
         except Exception as e:
             logger.error(f"❌ Fixture后置清理失败：{str(e)}")
+
     page.close()
