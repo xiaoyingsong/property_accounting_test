@@ -37,9 +37,8 @@ def login_success_page(playwright_page: Page) -> Page:
         logger.info("点击登录按钮")
 
         # 滑动安全验证
-        test
-        test
-        # 验证登录成功
+
+        # 验证登录成
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)
         # expect(page.url).to_be(f"{BASE_URL}/index")
         logger.info("✅ 登录成功，进入首页")
