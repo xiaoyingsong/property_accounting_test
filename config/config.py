@@ -12,7 +12,7 @@ CURRENT_ENV = ENV_TYPES["TEST"]
 # 各环境配置
 ENV_CONFIG = {
     "test": {
-        "BASE_URL": "http://tenant.7link.local",
+        "BASE_URL": "http://tenant.7link.top",
         "TIMEOUT": 10000,  # 通用超时时间（毫秒）
         "HEADLESS": False  # 是否无头模式
     },
