@@ -38,30 +38,37 @@ def login_success_page(playwright_page: Page) -> Page:
         page.get_by_role("button", name="登录").click()
         logger.info("点击登录按钮")
 
-        # 滑动验证
-        # ====================== 【终极精准版】滑块安全验证 ======================
+        # 滑块安全验证
         with allure.step("处理滑块安全验证"):
-            # 1. 等待邮箱面板内的验证弹窗
-            captcha_dialog = page.locator("#pane-email .verifybox")
-            captcha_dialog.wait_for(state="visible", timeout=GLOBAL_TIMEOUT)
-            logger.info("检测到安全验证弹窗")
+            captcha = page.locator("#pane-email .verifybox")
+            captcha.wait_for(state="visible", timeout=5000)
+            logger.info("检测到滑块验证弹窗")
 
-            # 2. 验证码图片定位（固定）
-            captcha_img_locator = "#pane-email .verifybox .verify-img-panel img"
+            img_loc = "#pane-email .verifybox .verify-img-panel img"
+            slider_loc = "#pane-email .verifybox .verify-move-block"
 
-            # 3. ✅ 真实滑块定位（根据你提供的HTML，永不超时）
-            slider_locator = "#pane-email .verifybox .verify-move-block"
-            # 强制等待滑块可见
-            page.locator(slider_locator).wait_for(state="visible", timeout=GLOBAL_TIMEOUT)
+            # 3次重试机制
+            for i in range(3):
+                try:
+                    logger.info(f"第{i + 1}次尝试验证滑块")
+                    gap = get_slider_gap(page, img_loc)
+                    drag_slider_human(page, slider_loc, gap)
 
-            # 4. 识别缺口 + 模拟人类拖动
-            gap_x = get_slider_gap(page, captcha_img_locator)
-            drag_slider_human(page, slider_locator, gap_x)
-
-            # 5. 等待验证通过，弹窗关闭
-            captcha_dialog.wait_for(state="hidden", timeout=GLOBAL_TIMEOUT)
-            logger.info("滑块验证成功")
-        # ====================================================================
+                    captcha.wait_for(state="hidden", timeout=5000)
+                    logger.info("滑块验证通过")
+                    break
+                except Exception as e:
+                    logger.warning(f"第{i + 1}次滑块验证失败")
+                    # Allure失败截图
+                    allure.attach(page.screenshot(full_page=True), name=f"滑块验证第{i + 1}次失败",
+                                  attachment_type=allure.attachment_type.PNG)
+                    # 三次失败抛出异常
+                    if i == 2:
+                        logger.error("滑块验证3次全部失败")
+                        allure.attach(page.screenshot(full_page=True), name="滑块验证最终失败",
+                                      attachment_type=allure.attachment_type.PNG)
+                        raise e
+                    page.wait_for_timeout(1000)
 
         # 验证登录成功
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)

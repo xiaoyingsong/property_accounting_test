@@ -1,0 +1,52 @@
+2026-03-06 15:05:43,545 - property_test - INFO - === 开始执行登录Fixture ===
+2026-03-06 15:05:44,804 - property_test - INFO - 切换语言为简体中文
+2026-03-06 15:05:46,405 - property_test - INFO - 切换到邮箱登录标签页
+2026-03-06 15:05:48,067 - property_test - INFO - 输入账号密码（管理员账号）
+2026-03-06 15:05:48,644 - property_test - INFO - 点击登录按钮
+2026-03-06 15:05:48,645 - property_test - INFO - ✅ 登录成功，进入首页
+2026-03-06 15:05:49,060 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-03-06 15:05:49,067 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-03-06 15:05:49,596 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-03-06 15:06:20,109 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-03-06 15:06:23,778 - property_test - INFO - === 开始执行登录Fixture ===
+2026-03-06 15:06:25,036 - property_test - INFO - 切换语言为简体中文
+2026-03-06 15:06:26,702 - property_test - INFO - 切换到邮箱登录标签页
+2026-03-06 15:06:28,294 - property_test - INFO - 输入账号密码（管理员账号）
+2026-03-06 15:06:28,852 - property_test - INFO - 点击登录按钮
+2026-03-06 15:06:28,852 - property_test - INFO - ✅ 登录成功，进入首页
+2026-03-06 15:06:29,692 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-03-06 15:06:29,704 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-03-06 15:06:30,093 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-03-06 15:07:00,607 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-03-06 15:13:10,860 - property_test - INFO - === 开始执行登录Fixture ===
+2026-03-06 15:13:13,217 - property_test - INFO - 切换语言为简体中文
+2026-03-06 15:13:14,830 - property_test - INFO - 切换到邮箱登录标签页
+2026-03-06 15:13:16,424 - property_test - INFO - 输入账号密码（管理员账号）
+2026-03-06 15:13:16,992 - property_test - INFO - 点击登录按钮
+2026-03-06 15:13:16,992 - property_test - INFO - ✅ 登录成功，进入首页
+2026-03-06 15:13:17,422 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-03-06 15:13:17,433 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-03-06 15:13:18,017 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-03-06 15:13:48,530 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-03-06 15:13:52,264 - property_test - INFO - === 开始执行登录Fixture ===
+2026-03-06 15:13:53,753 - property_test - INFO - 切换语言为简体中文
+2026-03-06 15:13:55,351 - property_test - INFO - 切换到邮箱登录标签页
+2026-03-06 15:13:56,947 - property_test - INFO - 输入账号密码（管理员账号）
+2026-03-06 15:13:57,502 - property_test - INFO - 点击登录按钮
+2026-03-06 15:13:57,503 - property_test - INFO - ✅ 登录成功，进入首页
+2026-03-06 15:13:57,947 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-03-06 15:13:57,953 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-03-06 15:13:58,399 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-03-06 15:14:28,909 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-03-06 15:18:51,642 - property_test - INFO - === 开始执行登录Fixture ===
+2026-03-06 15:18:53,986 - property_test - INFO - 切换语言为简体中文
+2026-03-06 15:18:55,586 - property_test - INFO - 切换到邮箱登录标签页
+2026-03-06 15:18:57,182 - property_test - INFO - 输入账号密码（管理员账号）
+2026-03-06 15:18:57,757 - property_test - INFO - 点击登录按钮
+2026-03-06 15:18:57,758 - property_test - INFO - ✅ 登录成功，进入首页
+2026-03-06 15:18:58,187 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-03-06 15:18:58,188 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-03-06 15:19:00,853 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-03-06 15:19:01,027 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-03-06 15:19:01,663 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-03-06 15:19:01,663 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===

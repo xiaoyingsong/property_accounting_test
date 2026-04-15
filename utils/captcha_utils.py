@@ -1,66 +1,51 @@
 import io
-import random
 from PIL import Image
 from playwright.sync_api import Page
+from utils.log_utils import logger
 
 
 def get_slider_gap(page: Page, captcha_img_locator: str) -> int:
     """
-    识别滑块验证码的缺口位置，返回缺口的X坐标
-    :param page: Playwright Page对象
-    :param captcha_img_locator: 验证码图片的定位器（用于精准截图）
-    :return: 缺口的X坐标（需拖动的距离）
+    滑块验证码缺口识别
+    基于灰度图查找阴影最暗列，定位缺口位置
     """
-    # 1. 截取验证码图片
-    captcha_img = page.locator(captcha_img_locator).screenshot()
-    img = Image.open(io.BytesIO(captcha_img)).convert("RGB")
+    elem = page.locator(captcha_img_locator)
+    elem.wait_for(timeout=3000)
+    img = Image.open(io.BytesIO(elem.screenshot())).convert("L")
+    w, h = img.size
 
-    # 2. 像素对比找缺口（根据你截图的雪景/建筑背景调整阈值）
-    left = 0
-    # 遍历图片像素，找明显差异的缺口位置
-    for x in range(img.width):
-        for y in range(img.height):
-            r, g, b = img.getpixel((x, y))
-            # 背景是亮色调，缺口是拼图的深色轮廓，可根据实际图片调整阈值
-            if r < 60 and g < 60 and b < 60:
-                left = x
-                break
-        if left > 0:
-            break
-    # 减去滑块宽度偏移（根据实际滑块大小调整，通常40-50px）
-    return left - 45
+    start_x = 60
+    gap_x = 0
+    min_brightness = 255
+
+    # 遍历像素查找缺口阴影
+    for x in range(start_x, w - 60):
+        brightness = 0
+        for y in range(int(h * 0.2), int(h * 0.8)):
+            brightness += img.getpixel((x, y))
+        avg = brightness // 100
+        if avg < min_brightness:
+            min_brightness = avg
+            gap_x = x
+
+    logger.info(f"缺口识别完成，位置：{gap_x} px")
+    return gap_x
 
 
-def drag_slider_human(page: Page, slider_locator: str, gap_x: int):
+def drag_slider_human(page: Page, slider_locator: str, target_x: int):
     """
-    模拟人类拖动滑块（带缓动+微小抖动，降低反爬检测）
-    :param page: Playwright Page对象
-    :param slider_locator: 滑块的定位器
-    :param gap_x: 缺口的X坐标（需拖动的距离）
+    原生API拖动滑块
+    触发前端验证逻辑，精准对齐缺口
     """
-    # 1. 获取滑块初始位置
     slider = page.locator(slider_locator)
-    slider_bbox = slider.bounding_box()
-    if not slider_bbox:
-        raise Exception("滑块元素定位失败")
+    slider.wait_for(state="visible", timeout=3000)
 
-    # 2. 计算拖动起点/终点
-    start_x = slider_bbox["x"] + slider_bbox["width"] / 2
-    start_y = slider_bbox["y"] + slider_bbox["height"] / 2
-    end_x = start_x + gap_x
-    end_y = start_y
+    # 水平拖动指定距离
+    slider.drag_to(
+        slider,
+        target_position={"x": target_x, "y": 0},
+        force=True
+    )
 
-    # 3. 模拟人类拖动轨迹：先加速、再匀速、最后减速+微小抖动
-    page.mouse.move(start_x, start_y)
-    page.mouse.down()
-    steps = 20  # 分段数越多，轨迹越自然
-    for i in range(1, steps + 1):
-        ratio = i / steps
-        # 缓动函数（ease-out）：模拟人手先快后慢
-        ease_ratio = 1 - (1 - ratio) ** 3
-        # 加微小Y轴抖动，模拟人手晃动
-        y_offset = 2 * (0.5 - random.random())
-        current_x = start_x + (end_x - start_x) * ease_ratio
-        current_y = end_y + y_offset
-        page.mouse.move(current_x, current_y, steps=1)
-    page.mouse.up()
+    page.wait_for_timeout(800)
+    logger.info(f"滑块拖动完成，距离：{target_x} px")

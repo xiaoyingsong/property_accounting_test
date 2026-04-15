@@ -1,0 +1,116 @@
+2026-04-03 13:29:06,686 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 13:29:09,139 - property_test - INFO - 切换语言为简体中文
+2026-04-03 13:29:10,734 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 13:29:45,157 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 13:29:47,632 - property_test - INFO - 切换语言为简体中文
+2026-04-03 13:29:49,177 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 13:34:33,184 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 13:34:35,631 - property_test - INFO - 切换语言为简体中文
+2026-04-03 13:34:37,155 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 13:34:38,777 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 13:34:39,343 - property_test - INFO - 点击登录按钮
+2026-04-03 13:34:39,343 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-03 13:34:39,935 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-03 13:34:39,935 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-03 13:34:49,964 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-03 13:34:50,643 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-04-03 13:35:21,165 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-03 13:35:24,886 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 13:35:26,295 - property_test - INFO - 切换语言为简体中文
+2026-04-03 13:35:27,881 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 13:35:29,481 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 13:35:30,046 - property_test - INFO - 点击登录按钮
+2026-04-03 13:35:30,046 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-03 13:35:30,640 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-03 13:35:30,640 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-03 13:35:36,293 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-03 13:35:36,304 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-03 13:35:36,316 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-03 17:16:49,625 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:16:49,641 - property_test - ERROR - ❌ 登录流程执行失败：state: expected one of (attached|detached|visible|hidden)
+2026-04-03 17:16:54,733 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:16:54,751 - property_test - ERROR - ❌ 登录流程执行失败：state: expected one of (attached|detached|visible|hidden)
+2026-04-03 17:21:32,868 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:21:34,866 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:21:36,423 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:21:38,032 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:21:38,594 - property_test - INFO - 点击登录按钮
+2026-04-03 17:21:42,496 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:21:44,876 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:21:46,421 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:21:48,029 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:21:48,575 - property_test - INFO - 点击登录按钮
+2026-04-03 17:37:34,942 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:37:37,451 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:37:38,952 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:37:40,576 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:37:41,139 - property_test - INFO - 点击登录按钮
+2026-04-03 17:37:44,982 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:37:46,299 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:37:47,858 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:37:49,512 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:37:50,184 - property_test - INFO - 点击登录按钮
+2026-04-03 17:40:07,202 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:40:09,682 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:40:11,239 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:40:12,873 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:40:13,440 - property_test - INFO - 点击登录按钮
+2026-04-03 17:40:17,843 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:40:19,837 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:40:21,390 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:40:23,031 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:40:23,625 - property_test - INFO - 点击登录按钮
+2026-04-03 17:41:11,920 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:41:14,406 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:41:15,952 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:41:17,596 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:41:18,178 - property_test - INFO - 点击登录按钮
+2026-04-03 17:42:04,061 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:42:06,542 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:42:08,110 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:42:09,734 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:42:10,294 - property_test - INFO - 点击登录按钮
+2026-04-03 17:47:33,350 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:47:35,472 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:47:37,000 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:47:38,723 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:47:39,499 - property_test - INFO - 点击登录按钮
+2026-04-03 17:47:43,513 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:47:46,028 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:47:47,593 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:47:49,216 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:47:49,782 - property_test - INFO - 点击登录按钮
+2026-04-03 17:53:26,937 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:53:29,401 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:53:30,939 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:53:32,562 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:53:33,111 - property_test - INFO - 点击登录按钮
+2026-04-03 17:53:33,131 - property_test - INFO - 检测到安全验证弹窗
+2026-04-03 17:54:07,200 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:54:08,468 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:54:10,002 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:54:11,641 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:54:12,205 - property_test - INFO - 点击登录按钮
+2026-04-03 17:54:12,224 - property_test - INFO - 检测到安全验证弹窗
+2026-04-03 17:57:30,153 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:57:32,650 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:57:34,180 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:57:35,796 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:57:36,349 - property_test - INFO - 点击登录按钮
+2026-04-03 17:57:36,367 - property_test - INFO - 检测到安全验证弹窗
+2026-04-03 17:57:50,156 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 17:57:52,566 - property_test - INFO - 切换语言为简体中文
+2026-04-03 17:57:54,111 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 17:57:55,717 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 17:57:56,270 - property_test - INFO - 点击登录按钮
+2026-04-03 17:57:56,287 - property_test - INFO - 检测到安全验证弹窗
+2026-04-03 18:09:58,404 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-03 18:10:00,855 - property_test - INFO - 切换语言为简体中文
+2026-04-03 18:10:02,469 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-03 18:10:04,101 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-03 18:10:04,654 - property_test - INFO - 点击登录按钮
+2026-04-03 18:10:04,673 - property_test - INFO - 检测到安全验证弹窗
+2026-04-03 18:10:23,518 - property_test - INFO - 滑块验证成功
+2026-04-03 18:10:23,519 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-03 18:10:24,248 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-03 18:10:24,249 - property_test - INFO - 执行：点击项目设置中心菜单

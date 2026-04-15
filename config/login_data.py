@@ -3,7 +3,7 @@
 LOGIN_DATA = {
     "admin": {  # 管理员账号（有新增权限）
         "email": "songxiaoying101@gmail.com",
-        "password": "Song123456",
+        "password": "Song123456.",
         "remember_me": True
     },
 }
