@@ -18,7 +18,7 @@ def test_tc_p0_smoke_add_housing_unit_success(login_success_page: Page):
     前置条件:
         pc: 已通过有效账号登录系统并成功进入首页
         pc: 左侧导航栏"项目设置中心"可点击
-        pc: 系统已配置可用楼栋数据（如Block A）
+        pc: 系统已配置可用楼栋数据（如Block A）appium-doctor --android
     """
     page = login_success_page
     logger.info("=== 开始执行冒烟用例：新增房屋单元提交成功 ===")
