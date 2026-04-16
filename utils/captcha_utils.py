@@ -34,7 +34,6 @@ def drag_slider_human(page: Page, slider_locator: str, target_x: int):
     """原生API拖动滑块"""
     slider = page.locator(slider_locator)
     slider.wait_for(state="visible", timeout=3000)
-
     slider.drag_to(
         slider,
         target_position={"x": target_x, "y": 0},
