@@ -31,6 +31,4 @@ def test_tc_p0_smoke_add_housing_unit_success(login_success_page: Page):
     # 2. 执行业务流程
     home_page.click_project_setting()  # 点击项目设置中心
     home_page.click_housing_unit()      # 点击房屋单元
-
-
     logger.info("=== 冒烟用例执行完成：新增房屋单元提交成功 ===")

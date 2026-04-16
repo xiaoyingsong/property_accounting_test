@@ -39,7 +39,8 @@ def login_success_page(playwright_page: Page) -> Page:
         logger.info("点击登录按钮")
 
         # 滑块安全验证
-        with allure.step("处理滑块安全验证"):
+        # 滑块安全验证
+        with allure.step("滑块安全验证"):
             captcha = page.locator("#pane-email .verifybox")
             captcha.wait_for(state="visible", timeout=5000)
             logger.info("检测到滑块验证弹窗")
@@ -47,29 +48,26 @@ def login_success_page(playwright_page: Page) -> Page:
             img_loc = "#pane-email .verifybox .verify-img-panel img"
             slider_loc = "#pane-email .verifybox .verify-move-block"
 
-            # 3次重试机制
             for i in range(3):
                 try:
-                    logger.info(f"第{i + 1}次尝试验证滑块")
-                    gap = get_slider_gap(page, img_loc)
-                    drag_slider_human(page, slider_loc, gap)
+                    logger.info(f"第{i + 1}次滑块验证")
+                    distance = get_slider_gap(page, img_loc)
+                    drag_slider_human(page, slider_loc, distance)
 
                     captcha.wait_for(state="hidden", timeout=5000)
                     logger.info("滑块验证通过")
                     break
                 except Exception as e:
                     logger.warning(f"第{i + 1}次滑块验证失败")
-                    # Allure失败截图
-                    allure.attach(page.screenshot(full_page=True), name=f"滑块验证第{i + 1}次失败",
+                    allure.attach(page.screenshot(full_page=True), name=f"滑块验证失败_{i + 1}",
                                   attachment_type=allure.attachment_type.PNG)
-                    # 三次失败抛出异常
+
                     if i == 2:
-                        logger.error("滑块验证3次全部失败")
-                        allure.attach(page.screenshot(full_page=True), name="滑块验证最终失败",
+                        logger.error("滑块验证三次全部失败")
+                        allure.attach(page.screenshot(full_page=True), name="最终失败",
                                       attachment_type=allure.attachment_type.PNG)
                         raise e
                     page.wait_for_timeout(1000)
-
         # 验证登录成功
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)
         # expect(page.url).to_be(f"{BASE_URL}/index")
