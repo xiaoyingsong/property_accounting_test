@@ -1,13 +1,10 @@
 # test_cases/test_housing_unit.py
 import pytest
-import allure
 from playwright.sync_api import Page
-from config.config import BASE_URL, GLOBAL_TIMEOUT
-from fixtures.login_fixture import login_success_page
-from fixtures.browser_fixture import playwright_page,playwright_browser
-from pages.project_setting_center_page import HomePage
-from pages.housing_unit_list_page import HousingUnitFormPage
-from pages.housing_unit_form_page import HousingUnitListPage
+from fixtures.web.login_fixture import login_success_page
+from pages.web.project_setting_center_page import HomePage
+from pages.web.housing_unit_list_page import HousingUnitFormPage
+from pages.web.housing_unit_form_page import HousingUnitListPage
 from utils.log_utils import logger
 
 @pytest.mark.smoke

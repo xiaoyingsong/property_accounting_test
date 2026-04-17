@@ -1,10 +1,10 @@
 # fixtures/login_fixture.py
 import pytest
 import allure
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 from config.config import BASE_URL, GLOBAL_TIMEOUT
 from config.login_data import DEFAULT_LOGIN_DATA  # 引入默认登录数据
-from fixtures.browser_fixture import playwright_page
+from fixtures.web.browser_fixture import playwright_page
 from utils.log_utils import logger
 from utils.captcha_utils import get_slider_gap, drag_slider_human  # 引入滑块工具函数
 
@@ -28,8 +28,12 @@ def login_success_page(playwright_page: Page) -> Page:
         # 输入登录数据（从配置获取，无硬编码）
         email_panel = page.locator("#pane-email")
         email_panel.wait_for(timeout=GLOBAL_TIMEOUT)
-        email_panel.get_by_placeholder("example@7link.com").fill(DEFAULT_LOGIN_DATA["email"])
-        email_panel.get_by_placeholder("请输入密码").fill(DEFAULT_LOGIN_DATA["password"])
+        email_panel.get_by_placeholder("example@7link.com").fill(
+            DEFAULT_LOGIN_DATA["email"]
+        )
+        email_panel.get_by_placeholder("请输入密码").fill(
+            DEFAULT_LOGIN_DATA["password"]
+        )
         if DEFAULT_LOGIN_DATA["remember_me"]:
             email_panel.get_by_label("记住我").check()
         logger.info("输入账号密码（管理员账号）")
@@ -38,7 +42,6 @@ def login_success_page(playwright_page: Page) -> Page:
         page.get_by_role("button", name="登录").click()
         logger.info("点击登录按钮")
 
-        # 滑块安全验证
         # 滑块安全验证
         with allure.step("滑块安全验证"):
             captcha = page.locator("#pane-email .verifybox")
@@ -59,20 +62,30 @@ def login_success_page(playwright_page: Page) -> Page:
                     break
                 except Exception as e:
                     logger.warning(f"第{i + 1}次滑块验证失败")
-                    allure.attach(page.screenshot(full_page=True), name=f"滑块验证失败_{i + 1}",
-                                  attachment_type=allure.attachment_type.PNG)
+                    allure.attach(
+                        page.screenshot(full_page=True),
+                        name=f"滑块验证失败_{i + 1}",
+                        attachment_type=allure.attachment_type.PNG,
+                    )
 
                     if i == 2:
                         logger.error("滑块验证三次全部失败")
-                        allure.attach(page.screenshot(full_page=True), name="最终失败",
-                                      attachment_type=allure.attachment_type.PNG)
+                        allure.attach(
+                            page.screenshot(full_page=True),
+                            name="最终失败",
+                            attachment_type=allure.attachment_type.PNG,
+                        )
                         raise e
                     page.wait_for_timeout(1000)
         # 验证登录成功
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)
         # expect(page.url).to_be(f"{BASE_URL}/index")
         logger.info("✅ 登录成功，进入首页")
-        allure.attach(page.screenshot(), name="登录成功首页", attachment_type=allure.attachment_type.PNG)
+        allure.attach(
+            page.screenshot(),
+            name="登录成功首页",
+            attachment_type=allure.attachment_type.PNG,
+        )
 
     yield page
 
