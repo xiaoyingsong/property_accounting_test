@@ -1,0 +1,363 @@
+2026-04-15 15:42:46,001 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 15:42:48,009 - property_test - INFO - 切换语言为简体中文
+2026-04-15 15:42:49,524 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 15:42:51,149 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 15:42:51,704 - property_test - INFO - 点击登录按钮
+2026-04-15 15:42:51,723 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 15:43:10,038 - property_test - INFO - 滑块验证成功
+2026-04-15 15:43:10,038 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 15:43:10,744 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 15:43:10,745 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 15:43:12,369 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-15 15:43:12,378 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-15 15:43:12,392 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-15 15:49:11,406 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 15:49:13,328 - property_test - INFO - 切换语言为简体中文
+2026-04-15 15:49:14,845 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 15:49:16,442 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 15:49:17,007 - property_test - INFO - 点击登录按钮
+2026-04-15 15:49:17,025 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 15:49:17,037 - property_test - INFO - 第1次滑块验证
+2026-04-15 15:49:35,455 - property_test - INFO - 第2次滑块验证
+2026-04-15 15:49:53,844 - property_test - INFO - 第3次滑块验证
+2026-04-15 15:50:11,184 - property_test - ERROR - 滑块验证3次失败
+2026-04-15 15:50:14,940 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 15:50:17,388 - property_test - INFO - 切换语言为简体中文
+2026-04-15 15:50:18,921 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 15:50:20,539 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 15:50:21,090 - property_test - INFO - 点击登录按钮
+2026-04-15 15:50:21,108 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 15:50:21,121 - property_test - INFO - 第1次滑块验证
+2026-04-15 15:50:39,529 - property_test - INFO - 第2次滑块验证
+2026-04-15 16:23:44,308 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:23:46,791 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:23:48,319 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:23:49,923 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:23:50,489 - property_test - INFO - 点击登录按钮
+2026-04-15 16:23:50,504 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:23:50,516 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:23:50,533 - property_test - WARNING - 第 1 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:24:22,070 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:24:22,092 - property_test - WARNING - 第 2 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:24:53,626 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 16:24:53,646 - property_test - WARNING - 第 3 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:24:53,646 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-15 16:24:58,066 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:25:00,499 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:25:02,257 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:25:03,859 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:25:04,421 - property_test - INFO - 点击登录按钮
+2026-04-15 16:25:04,438 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:25:04,449 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:25:04,463 - property_test - WARNING - 第 1 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:25:36,012 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:25:36,030 - property_test - WARNING - 第 2 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:26:07,573 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 16:26:07,591 - property_test - WARNING - 第 3 次验证失败：screenshot() got an unexpected keyword argument 'full_page'
+2026-04-15 16:26:07,592 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-15 16:30:22,325 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:30:24,327 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:30:25,809 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:30:27,484 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:30:28,030 - property_test - INFO - 点击登录按钮
+2026-04-15 16:30:28,048 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:30:28,060 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:30:28,283 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:30:28,283 - property_test - INFO - 背景平均灰度值：141.81
+2026-04-15 16:30:28,284 - property_test - INFO - 识别到缺口位置：x=128px，灰度差：22.07
+2026-04-15 16:30:28,284 - property_test - INFO - ✅ 最终拖动距离：71px
+2026-04-15 16:30:48,744 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:30:51,769 - property_test - WARNING - 第 1 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:31:23,301 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:31:23,583 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:31:23,584 - property_test - INFO - 背景平均灰度值：178.49
+2026-04-15 16:31:23,584 - property_test - INFO - 识别到缺口位置：x=120px，灰度差：20.51
+2026-04-15 16:31:23,584 - property_test - INFO - ✅ 最终拖动距离：63px
+2026-04-15 16:31:45,714 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:31:48,736 - property_test - WARNING - 第 2 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:32:20,286 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 16:32:20,469 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:32:20,469 - property_test - INFO - 背景平均灰度值：165.89
+2026-04-15 16:32:20,469 - property_test - INFO - 识别到缺口位置：x=121px，灰度差：45.29
+2026-04-15 16:32:20,469 - property_test - INFO - ✅ 最终拖动距离：64px
+2026-04-15 16:32:41,090 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:32:44,111 - property_test - WARNING - 第 3 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:32:44,111 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-15 16:32:48,820 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:32:53,328 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:32:54,877 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:32:56,488 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:32:57,056 - property_test - INFO - 点击登录按钮
+2026-04-15 16:32:57,072 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:32:57,084 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:32:57,268 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:32:57,268 - property_test - INFO - 背景平均灰度值：128.53
+2026-04-15 16:32:57,268 - property_test - INFO - 识别到缺口位置：x=120px，灰度差：18.64
+2026-04-15 16:32:57,268 - property_test - INFO - ✅ 最终拖动距离：63px
+2026-04-15 16:33:17,787 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:33:20,811 - property_test - WARNING - 第 1 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:33:52,355 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:34:19,716 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:34:19,716 - property_test - INFO - 背景平均灰度值：130.56
+2026-04-15 16:34:19,716 - property_test - INFO - 识别到缺口位置：x=126px，灰度差：20.65
+2026-04-15 16:34:19,717 - property_test - INFO - ✅ 最终拖动距离：69px
+2026-04-15 16:34:40,260 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:34:43,278 - property_test - WARNING - 第 2 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:35:14,821 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 16:35:17,555 - property_test - INFO - 验证码图片尺寸：宽400px，高201px
+2026-04-15 16:35:17,555 - property_test - INFO - 背景平均灰度值：170.39
+2026-04-15 16:35:17,555 - property_test - INFO - 识别到缺口位置：x=122px，灰度差：15.17
+2026-04-15 16:35:17,555 - property_test - INFO - ✅ 最终拖动距离：65px
+2026-04-15 16:35:38,113 - property_test - INFO - 滑块拖动完成
+2026-04-15 16:35:41,126 - property_test - WARNING - 第 3 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:35:41,126 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-15 16:45:06,999 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:45:08,969 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:45:10,470 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:45:12,139 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:45:12,705 - property_test - INFO - 点击登录按钮
+2026-04-15 16:45:12,722 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:45:12,734 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:45:12,933 - property_test - INFO - ✅ 识别缺口，拖动距离：63px
+2026-04-15 16:45:23,918 - property_test - INFO - ✅ 滑块拖动完成
+2026-04-15 16:45:26,936 - property_test - WARNING - 第 1 次验证失败：Timeout 3000ms exceeded.
+2026-04-15 16:46:11,422 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:46:13,398 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:46:14,903 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:46:16,514 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:46:17,078 - property_test - INFO - 点击登录按钮
+2026-04-15 16:46:17,095 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:46:17,107 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:46:17,317 - property_test - INFO - ✅ 识别缺口，拖动距离：170px
+2026-04-15 16:46:28,308 - property_test - INFO - ✅ 滑块拖动完成
+2026-04-15 16:46:41,338 - property_test - WARNING - 第 1 次验证失败：Timeout 13000ms exceeded.
+2026-04-15 16:47:12,881 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:47:13,178 - property_test - INFO - ✅ 识别缺口，拖动距离：63px
+2026-04-15 16:47:24,261 - property_test - INFO - ✅ 滑块拖动完成
+2026-04-15 16:47:37,278 - property_test - WARNING - 第 2 次验证失败：Timeout 13000ms exceeded.
+2026-04-15 16:48:08,820 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 16:48:38,861 - property_test - WARNING - 第 3 次验证失败：Timeout 30000ms exceeded.
+2026-04-15 16:48:38,862 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-15 16:55:18,391 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 16:55:20,834 - property_test - INFO - 切换语言为简体中文
+2026-04-15 16:55:22,376 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 16:55:23,977 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 16:55:24,559 - property_test - INFO - 点击登录按钮
+2026-04-15 16:55:24,578 - property_test - INFO - 检测到安全验证弹窗
+2026-04-15 16:55:24,590 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 16:55:24,590 - property_test - INFO - 【调试模式】固定拖动距离：200px
+2026-04-15 16:55:32,330 - property_test - INFO - ✅ 拖动完成，目标距离：200px
+2026-04-15 16:55:37,357 - property_test - WARNING - 第 1 次验证失败：Timeout 5000ms exceeded.
+2026-04-15 16:56:08,909 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 16:56:08,909 - property_test - INFO - 【调试模式】固定拖动距离：200px
+2026-04-15 16:56:18,741 - property_test - INFO - ✅ 拖动完成，目标距离：200px
+2026-04-15 16:56:23,770 - property_test - WARNING - 第 2 次验证失败：Timeout 5000ms exceeded.
+2026-04-15 16:56:23,770 - property_test - ERROR - ❌ 滑块验证2次全部失败
+2026-04-15 17:01:11,191 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:01:13,187 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:01:14,695 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:01:16,302 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:01:16,851 - property_test - INFO - 点击登录按钮
+2026-04-15 17:01:16,869 - property_test - INFO - 第 1 次尝试验证
+2026-04-15 17:01:17,075 - property_test - INFO - 🎯 缺口定位：135px → 拖动距离：75px
+2026-04-15 17:01:28,281 - property_test - WARNING - 失败：Timeout 4000ms exceeded.
+2026-04-15 17:01:29,102 - property_test - INFO - 第 2 次尝试验证
+2026-04-15 17:01:29,295 - property_test - INFO - 🎯 缺口定位：197px → 拖动距离：137px
+2026-04-15 17:01:40,496 - property_test - WARNING - 失败：Timeout 4000ms exceeded.
+2026-04-15 17:01:41,320 - property_test - INFO - 第 3 次尝试验证
+2026-04-15 17:01:41,530 - property_test - INFO - 🎯 缺口定位：161px → 拖动距离：101px
+2026-04-15 17:01:52,687 - property_test - WARNING - 失败：Timeout 4000ms exceeded.
+2026-04-15 17:13:35,220 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:13:37,675 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:13:39,220 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:13:40,837 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:13:41,389 - property_test - INFO - 点击登录按钮
+2026-04-15 17:13:41,418 - property_test - INFO - ✅ 安全验证弹窗加载完成
+2026-04-15 17:13:41,418 - property_test - INFO - ===== 第 1 次滑块验证尝试 =====
+2026-04-15 17:13:41,630 - property_test - INFO - 🎯 精准识别缺口左边缘：100px
+2026-04-15 17:13:41,631 - property_test - INFO - ✅ 最终拖动距离：100px（拼图块左边缘对齐缺口左边缘）
+2026-04-15 17:13:59,249 - property_test - INFO - ✅ 人类轨迹滑动完成，等待验证结果
+2026-04-15 17:14:04,276 - property_test - WARNING - ❌ 第 1 次验证失败：Timeout 5000ms exceeded.
+2026-04-15 17:14:06,802 - property_test - WARNING - ⚠️ 刷新按钮点击失败：Timeout 2000ms exceeded.，直接等待1秒重试
+2026-04-15 17:14:07,824 - property_test - INFO - ===== 第 2 次滑块验证尝试 =====
+2026-04-15 17:14:08,020 - property_test - INFO - 🎯 精准识别缺口左边缘：100px
+2026-04-15 17:14:08,020 - property_test - INFO - ✅ 最终拖动距离：100px（拼图块左边缘对齐缺口左边缘）
+2026-04-15 17:14:25,745 - property_test - INFO - ✅ 人类轨迹滑动完成，等待验证结果
+2026-04-15 17:14:30,767 - property_test - WARNING - ❌ 第 2 次验证失败：Timeout 5000ms exceeded.
+2026-04-15 17:14:33,291 - property_test - WARNING - ⚠️ 刷新按钮点击失败：Timeout 2000ms exceeded.，直接等待1秒重试
+2026-04-15 17:14:34,305 - property_test - INFO - ===== 第 3 次滑块验证尝试 =====
+2026-04-15 17:14:34,488 - property_test - INFO - 🎯 精准识别缺口左边缘：106px
+2026-04-15 17:14:34,488 - property_test - INFO - ✅ 最终拖动距离：106px（拼图块左边缘对齐缺口左边缘）
+2026-04-15 17:14:52,269 - property_test - INFO - ✅ 人类轨迹滑动完成，等待验证结果
+2026-04-15 17:14:57,284 - property_test - WARNING - ❌ 第 3 次验证失败：Timeout 5000ms exceeded.
+2026-04-15 17:14:57,285 - property_test - ERROR - ❌ 滑块验证3次全部失败，终止登录
+2026-04-15 17:24:59,287 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:25:01,732 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:25:03,246 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:25:04,868 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:25:05,423 - property_test - INFO - 点击登录按钮
+2026-04-15 17:25:05,441 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:25:05,684 - property_test - INFO - 🎯 识别缺口阴影位置：233 px
+2026-04-15 17:25:05,684 - property_test - INFO - ✅ 最终拖动距离：228 px
+2026-04-15 17:25:18,165 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-15 17:25:19,185 - property_test - INFO - 第2次尝试验证
+2026-04-15 17:25:19,366 - property_test - INFO - 🎯 识别缺口阴影位置：198 px
+2026-04-15 17:25:19,367 - property_test - INFO - ✅ 最终拖动距离：193 px
+2026-04-15 17:25:31,882 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-15 17:25:32,908 - property_test - INFO - 第3次尝试验证
+2026-04-15 17:25:33,124 - property_test - INFO - 🎯 识别缺口阴影位置：233 px
+2026-04-15 17:25:33,125 - property_test - INFO - ✅ 最终拖动距离：228 px
+2026-04-15 17:25:45,652 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-15 17:28:46,330 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:28:48,810 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:28:50,320 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:28:51,932 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:28:52,498 - property_test - INFO - 点击登录按钮
+2026-04-15 17:28:52,517 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:28:52,719 - property_test - INFO - 🎯 缺口位置：203 px
+2026-04-15 17:28:54,113 - property_test - INFO - ✅ 原生拖动完成：203px，验证已触发
+2026-04-15 17:28:54,127 - property_test - INFO - ✅ 验证通过！
+2026-04-15 17:28:54,128 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:28:54,529 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:28:54,530 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:29:04,556 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-15 17:29:05,259 - property_test - INFO - ✅ 失败截图已附加到 Allure 报告：test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-04-15 17:29:35,791 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-15 17:29:52,986 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:29:54,968 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:29:56,486 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:29:58,133 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:29:58,701 - property_test - INFO - 点击登录按钮
+2026-04-15 17:29:58,719 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:29:58,921 - property_test - INFO - 🎯 缺口位置：206 px
+2026-04-15 17:30:00,305 - property_test - INFO - ✅ 原生拖动完成：206px，验证已触发
+2026-04-15 17:30:00,323 - property_test - INFO - ✅ 验证通过！
+2026-04-15 17:30:00,323 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:30:00,743 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:30:00,743 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:30:04,336 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-15 17:30:04,531 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-15 17:30:05,153 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-15 17:30:05,153 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-15 17:30:35,673 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-15 17:41:41,507 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:41:43,458 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:41:44,977 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:41:46,586 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:41:47,155 - property_test - INFO - 点击登录按钮
+2026-04-15 17:41:47,172 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-15 17:41:47,172 - property_test - INFO - 第1次尝试验证滑块
+2026-04-15 17:41:47,381 - property_test - INFO - 缺口识别完成，位置：269 px
+2026-04-15 17:41:48,769 - property_test - INFO - 滑块拖动完成，距离：269 px
+2026-04-15 17:41:48,786 - property_test - INFO - 滑块验证通过
+2026-04-15 17:41:48,787 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:41:49,221 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:41:49,221 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:41:53,784 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-15 17:41:53,987 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-15 17:41:54,636 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-15 17:41:54,637 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-15 17:42:25,162 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-15 17:47:59,823 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:48:01,133 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:48:02,674 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:48:04,303 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:48:04,868 - property_test - INFO - 点击登录按钮
+2026-04-15 17:48:04,885 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-15 17:48:04,885 - property_test - INFO - 第1次尝试验证滑块
+2026-04-15 17:48:05,105 - property_test - INFO - 缺口识别完成，位置：317 px
+2026-04-15 17:48:06,488 - property_test - INFO - 滑块拖动完成，距离：317 px
+2026-04-15 17:48:11,519 - property_test - WARNING - 第1次滑块验证失败
+2026-04-15 17:48:13,134 - property_test - INFO - 第2次尝试验证滑块
+2026-04-15 17:48:13,342 - property_test - INFO - 缺口识别完成，位置：249 px
+2026-04-15 17:48:14,739 - property_test - INFO - 滑块拖动完成，距离：249 px
+2026-04-15 17:48:19,753 - property_test - WARNING - 第2次滑块验证失败
+2026-04-15 17:48:21,343 - property_test - INFO - 第3次尝试验证滑块
+2026-04-15 17:48:21,547 - property_test - INFO - 缺口识别完成，位置：269 px
+2026-04-15 17:48:22,970 - property_test - INFO - 滑块拖动完成，距离：269 px
+2026-04-15 17:48:27,986 - property_test - WARNING - 第3次滑块验证失败
+2026-04-15 17:48:28,569 - property_test - ERROR - 滑块验证3次全部失败
+2026-04-15 17:49:22,428 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:49:24,813 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:49:26,401 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:49:28,011 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:49:28,560 - property_test - INFO - 点击登录按钮
+2026-04-15 17:49:28,578 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-15 17:49:28,578 - property_test - INFO - 第1次尝试验证滑块
+2026-04-15 17:49:28,803 - property_test - INFO - 缺口识别完成，位置：117 px
+2026-04-15 17:49:30,185 - property_test - INFO - 滑块拖动完成，距离：117 px
+2026-04-15 17:49:35,205 - property_test - WARNING - 第1次滑块验证失败
+2026-04-15 17:49:36,811 - property_test - INFO - 第2次尝试验证滑块
+2026-04-15 17:49:37,019 - property_test - INFO - 缺口识别完成，位置：158 px
+2026-04-15 17:49:38,404 - property_test - INFO - 滑块拖动完成，距离：158 px
+2026-04-15 17:49:43,422 - property_test - WARNING - 第2次滑块验证失败
+2026-04-15 17:49:45,002 - property_test - INFO - 第3次尝试验证滑块
+2026-04-15 17:49:45,193 - property_test - INFO - 缺口识别完成，位置：158 px
+2026-04-15 17:49:46,563 - property_test - INFO - 滑块拖动完成，距离：158 px
+2026-04-15 17:49:51,576 - property_test - WARNING - 第3次滑块验证失败
+2026-04-15 17:49:52,178 - property_test - ERROR - 滑块验证3次全部失败
+2026-04-15 17:51:29,399 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:51:31,834 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:51:33,362 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:51:34,979 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:51:35,531 - property_test - INFO - 点击登录按钮
+2026-04-15 17:51:35,551 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:51:35,772 - property_test - INFO - 🎯 缺口位置：187 px
+2026-04-15 17:51:37,165 - property_test - INFO - ✅ 原生拖动完成：187px，验证已触发
+2026-04-15 17:51:37,182 - property_test - INFO - ✅ 验证通过！
+2026-04-15 17:51:37,182 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:51:37,619 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:51:37,619 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:51:41,215 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-15 17:51:41,453 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-15 17:51:42,104 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-15 17:51:42,104 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-15 17:52:12,623 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-15 17:52:23,378 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:52:25,352 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:52:26,878 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:52:28,527 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:52:29,080 - property_test - INFO - 点击登录按钮
+2026-04-15 17:52:29,098 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:52:29,326 - property_test - INFO - 缺口识别完成，位置：277 px
+2026-04-15 17:52:30,720 - property_test - INFO - 滑块拖动完成，距离：277 px
+2026-04-15 17:52:32,611 - property_test - INFO - ✅ 验证通过！
+2026-04-15 17:52:32,611 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:52:33,301 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:52:33,301 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:52:33,563 - property_test - ERROR - ❌ 用例 test_cases/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-15 17:52:33,576 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-15 17:52:33,592 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-15 17:54:56,297 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:54:57,641 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:54:59,149 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:55:00,756 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:55:01,321 - property_test - INFO - 点击登录按钮
+2026-04-15 17:55:01,339 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-15 17:55:01,339 - property_test - INFO - 第1次滑块验证
+2026-04-15 17:55:01,572 - property_test - INFO - 缺口识别：69px，最终拖动距离：64px
+2026-04-15 17:55:02,950 - property_test - INFO - 滑块拖动完成：64px
+2026-04-15 17:55:07,971 - property_test - WARNING - 第1次滑块验证失败
+2026-04-15 17:55:09,580 - property_test - INFO - 第2次滑块验证
+2026-04-15 17:55:09,820 - property_test - INFO - 缺口识别：69px，最终拖动距离：64px
+2026-04-15 17:55:11,214 - property_test - INFO - 滑块拖动完成：64px
+2026-04-15 17:55:15,177 - property_test - INFO - 滑块验证通过
+2026-04-15 17:55:15,177 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-15 17:55:15,857 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-15 17:55:15,857 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-15 17:55:59,399 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-15 17:56:01,864 - property_test - INFO - 切换语言为简体中文
+2026-04-15 17:56:03,405 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-15 17:56:05,015 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-15 17:56:05,570 - property_test - INFO - 点击登录按钮
+2026-04-15 17:56:05,587 - property_test - INFO - 第1次尝试验证
+2026-04-15 17:56:05,806 - property_test - INFO - 缺口识别完成，位置：249 px
+2026-04-15 17:56:07,196 - property_test - INFO - 滑块拖动完成，距离：249 px
+2026-04-15 17:56:12,221 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-15 17:56:13,239 - property_test - INFO - 第2次尝试验证
+2026-04-15 17:56:13,423 - property_test - INFO - 缺口识别完成，位置：117 px
+2026-04-15 17:56:14,811 - property_test - INFO - 滑块拖动完成，距离：117 px
+2026-04-15 17:56:19,837 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-15 17:56:20,859 - property_test - INFO - 第3次尝试验证
+2026-04-15 17:56:21,039 - property_test - INFO - 缺口识别完成，位置：197 px
+2026-04-15 17:56:22,425 - property_test - INFO - 滑块拖动完成，距离：197 px

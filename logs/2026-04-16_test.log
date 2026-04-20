@@ -1,0 +1,295 @@
+2026-04-16 09:30:02,217 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:30:04,249 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:30:05,819 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:30:07,454 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:30:08,023 - property_test - INFO - 点击登录按钮
+2026-04-16 09:30:08,044 - property_test - INFO - 第1次尝试验证
+2026-04-16 09:30:08,282 - property_test - INFO - 缺口识别完成，位置：69 px
+2026-04-16 09:30:09,662 - property_test - INFO - 滑块拖动完成，距离：69 px
+2026-04-16 09:30:14,681 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:30:15,693 - property_test - INFO - 第2次尝试验证
+2026-04-16 09:30:15,872 - property_test - INFO - 缺口识别完成，位置：197 px
+2026-04-16 09:30:17,331 - property_test - INFO - 滑块拖动完成，距离：197 px
+2026-04-16 09:30:22,340 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:30:23,367 - property_test - INFO - 第3次尝试验证
+2026-04-16 09:30:23,556 - property_test - INFO - 缺口识别完成，位置：158 px
+2026-04-16 09:30:24,950 - property_test - INFO - 滑块拖动完成，距离：158 px
+2026-04-16 09:30:29,976 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:33:16,082 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:33:18,092 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:33:19,627 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:33:21,248 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:33:21,813 - property_test - INFO - 点击登录按钮
+2026-04-16 09:33:21,831 - property_test - INFO - 第1次尝试验证
+2026-04-16 09:33:22,056 - property_test - INFO - 🎯 缺口位置：233 px
+2026-04-16 09:33:23,464 - property_test - INFO - ✅ 原生拖动完成：233px，验证已触发
+2026-04-16 09:33:28,492 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:33:29,514 - property_test - INFO - 第2次尝试验证
+2026-04-16 09:33:29,771 - property_test - INFO - 🎯 缺口位置：69 px
+2026-04-16 09:33:31,171 - property_test - INFO - ✅ 原生拖动完成：69px，验证已触发
+2026-04-16 09:33:36,186 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:33:37,202 - property_test - INFO - 第3次尝试验证
+2026-04-16 09:33:37,380 - property_test - INFO - 🎯 缺口位置：158 px
+2026-04-16 09:33:38,777 - property_test - INFO - ✅ 原生拖动完成：158px，验证已触发
+2026-04-16 09:33:43,798 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:35:00,346 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:35:02,297 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:35:03,833 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:35:05,458 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:35:06,012 - property_test - INFO - 点击登录按钮
+2026-04-16 09:35:06,029 - property_test - INFO - 第1次尝试验证
+2026-04-16 09:35:06,266 - property_test - INFO - 🎯 缺口位置：249 px
+2026-04-16 09:35:07,647 - property_test - INFO - ✅ 原生拖动完成：249px，验证已触发
+2026-04-16 09:35:12,661 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:35:13,678 - property_test - INFO - 第2次尝试验证
+2026-04-16 09:35:13,890 - property_test - INFO - 🎯 缺口位置：86 px
+2026-04-16 09:35:15,299 - property_test - INFO - ✅ 原生拖动完成：86px，验证已触发
+2026-04-16 09:35:20,317 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:35:21,337 - property_test - INFO - 第3次尝试验证
+2026-04-16 09:35:21,544 - property_test - INFO - 🎯 缺口位置：271 px
+2026-04-16 09:35:22,938 - property_test - INFO - ✅ 原生拖动完成：271px，验证已触发
+2026-04-16 09:35:27,949 - property_test - WARNING - 失败：Timeout 5000ms exceeded.
+2026-04-16 09:40:22,812 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:40:24,800 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:40:26,353 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:40:27,990 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:40:28,541 - property_test - INFO - 点击登录按钮
+2026-04-16 09:40:28,560 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 09:40:28,561 - property_test - INFO - 第1次滑块验证开始
+2026-04-16 09:40:28,791 - property_test - INFO - 🎯 缺口位置：69 px
+2026-04-16 09:40:28,792 - property_test - INFO - ✅ 拖动距离：59 px
+2026-04-16 09:40:30,211 - property_test - INFO - 🔧 滑块拖动执行完成
+2026-04-16 09:40:35,232 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 09:40:36,851 - property_test - INFO - 第2次滑块验证开始
+2026-04-16 09:40:37,090 - property_test - INFO - 🎯 缺口位置：277 px
+2026-04-16 09:40:37,090 - property_test - INFO - ✅ 拖动距离：267 px
+2026-04-16 09:40:38,493 - property_test - INFO - 🔧 滑块拖动执行完成
+2026-04-16 09:40:43,518 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 09:40:45,126 - property_test - INFO - 第3次滑块验证开始
+2026-04-16 09:40:45,333 - property_test - INFO - 🎯 缺口位置：277 px
+2026-04-16 09:40:45,334 - property_test - INFO - ✅ 拖动距离：267 px
+2026-04-16 09:40:46,720 - property_test - INFO - 🔧 滑块拖动执行完成
+2026-04-16 09:40:51,751 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 09:40:52,359 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-16 09:44:09,228 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:44:10,519 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:44:12,052 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:44:13,698 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:44:14,249 - property_test - INFO - 点击登录按钮
+2026-04-16 09:44:14,266 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 09:44:14,267 - property_test - INFO - 第1次滑块验证
+2026-04-16 09:44:14,491 - property_test - INFO - 缺口定位：0px，拖动距离：-12px
+2026-04-16 09:44:15,872 - property_test - INFO - 滑块拖动完成
+2026-04-16 09:44:20,895 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 09:44:22,507 - property_test - INFO - 第2次滑块验证
+2026-04-16 09:44:22,691 - property_test - INFO - 缺口定位：274px，拖动距离：262px
+2026-04-16 09:44:24,083 - property_test - INFO - 滑块拖动完成
+2026-04-16 09:44:29,110 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 09:44:30,720 - property_test - INFO - 第3次滑块验证
+2026-04-16 09:44:30,930 - property_test - INFO - 缺口定位：233px，拖动距离：221px
+2026-04-16 09:44:32,346 - property_test - INFO - 滑块拖动完成
+2026-04-16 09:44:37,367 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 09:44:37,967 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 09:55:54,908 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 09:55:56,918 - property_test - INFO - 切换语言为简体中文
+2026-04-16 09:55:58,392 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 09:56:00,041 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 09:56:00,593 - property_test - INFO - 点击登录按钮
+2026-04-16 09:56:00,611 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 09:56:00,611 - property_test - INFO - 第1次滑块验证开始
+2026-04-16 09:56:00,811 - property_test - INFO - ✅ 最终拖动距离：-12px
+2026-04-16 09:56:11,140 - property_test - INFO - 🔧 滑块拖动完成
+2026-04-16 09:56:16,166 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 09:56:17,803 - property_test - INFO - 第2次滑块验证开始
+2026-04-16 09:56:18,014 - property_test - INFO - ✅ 最终拖动距离：-12px
+2026-04-16 09:56:28,383 - property_test - INFO - 🔧 滑块拖动完成
+2026-04-16 09:56:33,405 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 09:56:35,016 - property_test - INFO - 第3次滑块验证开始
+2026-04-16 09:56:35,214 - property_test - INFO - ✅ 最终拖动距离：-12px
+2026-04-16 09:56:45,563 - property_test - INFO - 🔧 滑块拖动完成
+2026-04-16 09:56:50,576 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 09:56:51,170 - property_test - ERROR - ❌ 滑块验证3次全部失败
+2026-04-16 10:00:26,466 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 10:00:28,900 - property_test - INFO - 切换语言为简体中文
+2026-04-16 10:00:30,414 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 10:00:32,025 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 10:00:32,577 - property_test - INFO - 点击登录按钮
+2026-04-16 10:00:32,596 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 10:00:32,596 - property_test - INFO - 第1次滑块验证
+2026-04-16 10:00:32,793 - property_test - INFO - 缺口定位：80px，拖动距离：65px
+2026-04-16 10:00:34,191 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:00:39,203 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 10:00:40,810 - property_test - INFO - 第2次滑块验证
+2026-04-16 10:00:41,036 - property_test - INFO - 缺口定位：80px，拖动距离：65px
+2026-04-16 10:00:42,460 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:00:47,477 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 10:00:49,068 - property_test - INFO - 第3次滑块验证
+2026-04-16 10:00:49,252 - property_test - INFO - 缺口定位：80px，拖动距离：65px
+2026-04-16 10:00:50,654 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:00:55,674 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 10:00:56,242 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 10:32:03,698 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 10:32:04,987 - property_test - INFO - 切换语言为简体中文
+2026-04-16 10:32:06,529 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 10:32:08,145 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 10:32:08,716 - property_test - INFO - 点击登录按钮
+2026-04-16 10:32:08,736 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 10:32:08,736 - property_test - INFO - 第1次滑块验证
+2026-04-16 10:32:08,751 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 10:32:10,358 - property_test - INFO - 第2次滑块验证
+2026-04-16 10:32:10,376 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 10:32:11,976 - property_test - INFO - 第3次滑块验证
+2026-04-16 10:32:11,996 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 10:32:12,572 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 10:33:56,560 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 10:33:59,046 - property_test - INFO - 切换语言为简体中文
+2026-04-16 10:34:00,594 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 10:34:02,205 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 10:34:02,773 - property_test - INFO - 点击登录按钮
+2026-04-16 10:34:02,793 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 10:34:02,793 - property_test - INFO - 第1次滑块验证
+2026-04-16 10:34:03,011 - property_test - INFO - 缺口定位：0px，拖动距离：-10px
+2026-04-16 10:34:04,398 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:34:09,414 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 10:34:11,011 - property_test - INFO - 第2次滑块验证
+2026-04-16 10:34:11,211 - property_test - INFO - 缺口定位：330px，拖动距离：320px
+2026-04-16 10:34:12,621 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:34:17,637 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 10:34:19,252 - property_test - INFO - 第3次滑块验证
+2026-04-16 10:34:19,452 - property_test - INFO - 缺口定位：0px，拖动距离：-10px
+2026-04-16 10:34:20,859 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:34:25,876 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 10:34:26,454 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 10:36:37,764 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 10:36:40,280 - property_test - INFO - 切换语言为简体中文
+2026-04-16 10:36:41,763 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 10:36:43,370 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 10:36:43,921 - property_test - INFO - 点击登录按钮
+2026-04-16 10:36:43,939 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 10:36:43,939 - property_test - INFO - 第1次滑块验证
+2026-04-16 10:36:44,146 - property_test - INFO - 缺口定位：80px
+2026-04-16 10:36:45,530 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:36:50,541 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 10:36:52,162 - property_test - INFO - 第2次滑块验证
+2026-04-16 10:36:52,349 - property_test - INFO - 缺口定位：195px
+2026-04-16 10:36:53,762 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:36:53,779 - property_test - INFO - 滑块验证通过
+2026-04-16 10:36:53,779 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-16 10:36:54,195 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-16 10:36:54,196 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-16 10:36:57,797 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-16 10:36:57,997 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-16 10:36:58,650 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-16 10:36:58,650 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-16 10:37:29,181 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-16 10:39:50,241 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 10:39:52,684 - property_test - INFO - 切换语言为简体中文
+2026-04-16 10:39:54,215 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 10:39:55,822 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 10:39:56,370 - property_test - INFO - 点击登录按钮
+2026-04-16 10:39:56,387 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 10:39:56,387 - property_test - INFO - 第1次滑块验证
+2026-04-16 10:39:56,592 - property_test - INFO - 缺口定位：91px
+2026-04-16 10:39:57,973 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:40:02,995 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 10:40:04,606 - property_test - INFO - 第2次滑块验证
+2026-04-16 10:40:04,806 - property_test - INFO - 缺口定位：105px
+2026-04-16 10:40:06,221 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:40:11,237 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 10:40:12,863 - property_test - INFO - 第3次滑块验证
+2026-04-16 10:40:13,041 - property_test - INFO - 缺口定位：85px
+2026-04-16 10:40:14,440 - property_test - INFO - 滑块拖动完成
+2026-04-16 10:40:19,454 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 10:40:20,051 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 11:03:00,547 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 11:03:02,489 - property_test - INFO - 切换语言为简体中文
+2026-04-16 11:03:04,016 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 11:03:05,686 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 11:03:06,255 - property_test - INFO - 点击登录按钮
+2026-04-16 11:03:06,273 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 11:03:06,273 - property_test - INFO - 第1次滑块验证
+2026-04-16 11:03:06,501 - property_test - INFO - 缺口定位：199px，拖动距离：185px
+2026-04-16 11:03:07,890 - property_test - INFO - 滑块拖动完成
+2026-04-16 11:03:12,904 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 11:03:14,516 - property_test - INFO - 第2次滑块验证
+2026-04-16 11:03:14,753 - property_test - INFO - 缺口定位：244px，拖动距离：230px
+2026-04-16 11:03:16,145 - property_test - INFO - 滑块拖动完成
+2026-04-16 11:03:21,166 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 11:03:22,760 - property_test - INFO - 第3次滑块验证
+2026-04-16 11:03:23,005 - property_test - INFO - 缺口定位：141px，拖动距离：127px
+2026-04-16 11:03:24,381 - property_test - INFO - 滑块拖动完成
+2026-04-16 11:03:29,399 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 11:03:29,982 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 13:47:02,037 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 13:47:03,465 - property_test - INFO - 切换语言为简体中文
+2026-04-16 13:47:05,015 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 13:47:06,639 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 13:47:07,191 - property_test - INFO - 点击登录按钮
+2026-04-16 13:47:07,208 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 13:47:07,209 - property_test - INFO - 第1次滑块验证
+2026-04-16 13:47:07,459 - property_test - INFO - 缺口定位：89px，拖动距离：75px
+2026-04-16 13:47:08,834 - property_test - INFO - 滑块拖动完成
+2026-04-16 13:47:13,848 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 13:47:15,434 - property_test - INFO - 第2次滑块验证
+2026-04-16 13:47:15,723 - property_test - INFO - 缺口定位：125px，拖动距离：111px
+2026-04-16 13:47:17,171 - property_test - INFO - 滑块拖动完成
+2026-04-16 13:47:22,191 - property_test - WARNING - 第2次滑块验证失败
+2026-04-16 13:47:23,815 - property_test - INFO - 第3次滑块验证
+2026-04-16 13:47:24,026 - property_test - INFO - 缺口定位：125px，拖动距离：111px
+2026-04-16 13:47:25,405 - property_test - INFO - 滑块拖动完成
+2026-04-16 13:47:30,428 - property_test - WARNING - 第3次滑块验证失败
+2026-04-16 13:47:31,007 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-16 14:14:54,582 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 14:14:55,870 - property_test - INFO - 切换语言为简体中文
+2026-04-16 14:14:57,430 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 14:14:59,059 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 14:14:59,612 - property_test - INFO - 点击登录按钮
+2026-04-16 14:14:59,630 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 14:14:59,630 - property_test - INFO - 第1次滑块验证
+2026-04-16 14:14:59,886 - property_test - INFO - 缺口定位：244px，拖动距离：230px
+2026-04-16 14:15:01,268 - property_test - INFO - 滑块拖动完成
+2026-04-16 14:15:06,287 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 14:15:07,881 - property_test - INFO - 第2次滑块验证
+2026-04-16 14:15:08,134 - property_test - INFO - 缺口定位：329px，拖动距离：315px
+2026-04-16 14:15:09,529 - property_test - INFO - 滑块拖动完成
+2026-04-16 14:15:14,508 - property_test - INFO - 滑块验证通过
+2026-04-16 14:15:14,508 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-16 14:15:15,198 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-16 14:15:15,198 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-16 14:15:16,408 - property_test - ERROR - ❌ 用例 test_cases/web/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-16 14:15:16,422 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-16 14:15:16,436 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-16 15:36:23,740 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 15:36:26,139 - property_test - INFO - 切换语言为简体中文
+2026-04-16 15:36:27,661 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 15:36:29,254 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 15:36:29,803 - property_test - INFO - 点击登录按钮
+2026-04-16 15:36:29,820 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 15:36:29,820 - property_test - INFO - 第1次滑块验证
+2026-04-16 15:36:30,057 - property_test - INFO - 缺口定位：316px，拖动距离：302px
+2026-04-16 15:36:31,436 - property_test - INFO - 滑块拖动完成
+2026-04-16 15:36:36,448 - property_test - WARNING - 第1次滑块验证失败
+2026-04-16 15:36:38,125 - property_test - INFO - 第2次滑块验证
+2026-04-16 15:36:38,328 - property_test - INFO - 缺口定位：89px，拖动距离：75px
+2026-04-16 15:36:39,718 - property_test - INFO - 滑块拖动完成
+2026-04-16 15:36:39,729 - property_test - INFO - 滑块验证通过
+2026-04-16 15:36:39,729 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-16 15:36:40,193 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-16 15:36:40,193 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-16 15:36:43,728 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-16 15:36:43,939 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-16 15:36:44,851 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-16 15:36:44,851 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-16 15:37:15,366 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-16 16:56:12,082 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 16:56:13,415 - property_test - INFO - 切换语言为简体中文
+2026-04-16 17:01:43,262 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-16 17:01:44,685 - property_test - INFO - 切换语言为简体中文
+2026-04-16 17:01:46,241 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-16 17:01:47,839 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-16 17:01:48,399 - property_test - INFO - 点击登录按钮
+2026-04-16 17:01:48,414 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-16 17:01:48,414 - property_test - INFO - 第1次滑块验证
+2026-04-16 17:01:48,704 - property_test - INFO - 缺口定位：272px，拖动距离：258px
+2026-04-16 17:01:50,079 - property_test - INFO - 滑块拖动完成
+2026-04-16 17:01:50,996 - property_test - WARNING - 第1次滑块验证失败

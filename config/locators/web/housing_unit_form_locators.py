@@ -1,4 +1,4 @@
-# config/locators/housing_unit_form_locators.py
+# config/locators/web/housing_unit_form_locators.py
 # 新增房屋单元表单元素定位器
 HOUSING_UNIT_FORM_LOCATORS = {
     # 表单标题（角色定位）
@@ -14,5 +14,5 @@ HOUSING_UNIT_FORM_LOCATORS = {
     # 保存按钮（角色定位）
     "save_button": ("get_by_role", "button", {"name": "保存", "timeout": 10000}),
     # 提交成功提示（文本定位）
-    "success_msg": ("get_by_text", "提交成功", {"timeout": 5000})
+    "success_msg": ("get_by_text", "提交成功", {"timeout": 5000}),
 }

@@ -1,0 +1,10 @@
+[32mINFO    [0m property_test:login_fixture.py:42 === 开始执行登录Fixture ===
+[32mINFO    [0m property_test:login_fixture.py:48 切换语言为简体中文
+[32mINFO    [0m property_test:login_fixture.py:53 切换到邮箱登录标签页
+[32mINFO    [0m property_test:login_fixture.py:66 输入账号密码（管理员账号）
+[32mINFO    [0m property_test:login_fixture.py:70 点击登录按钮
+[32mINFO    [0m property_test:login_fixture.py:76 检测到滑块验证弹窗
+[32mINFO    [0m property_test:login_fixture.py:83 第1次滑块验证
+[32mINFO    [0m property_test:captcha_utils.py:111 滑块候选偏移: 233px(conf=1.00,pair(width=47)), 247px(conf=0.96,pair(width=45)), 280px(conf=0.79,pair(width=49)), 201px(conf=0.75,pair(width=46))
+[32mINFO    [0m property_test:login_fixture.py:91 尝试滑块偏移: 233px (conf=1.00, method=pair(width=47))
+[33mWARNING [0m property_test:login_fixture.py:105 第1次滑块验证失败
