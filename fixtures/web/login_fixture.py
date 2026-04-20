@@ -1,12 +1,39 @@
 # fixtures/login_fixture.py
 import pytest
 import allure
-from playwright.sync_api import Page
+from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 from config.config import BASE_URL, GLOBAL_TIMEOUT
 from config.login_data import DEFAULT_LOGIN_DATA  # 引入默认登录数据
 from fixtures.web.browser_fixture import playwright_page
 from utils.log_utils import logger
-from utils.captcha_utils import get_slider_gap, drag_slider_human  # 引入滑块工具函数
+from utils.captcha_utils import get_slider_gap_candidates, drag_slider_human  # 引入滑块工具函数
+
+
+def _refresh_captcha(page: Page) -> bool:
+    """尝试点击验证码刷新按钮。"""
+    refresh_selectors = [
+        "#pane-email .verifybox .verify-sub-block .icon-refresh",
+        "#pane-email .verifybox .verify-refresh",
+        "#pane-email .verifybox [class*='refresh']",
+    ]
+    for selector in refresh_selectors:
+        refresh_btn = page.locator(selector).first
+        if refresh_btn.count() > 0 and refresh_btn.is_visible():
+            refresh_btn.click(timeout=2000)
+            page.wait_for_timeout(300)
+            logger.info(f"已刷新滑块验证码: {selector}")
+            return True
+    logger.info("未找到可点击的验证码刷新按钮，继续下一次重试")
+    return False
+
+
+def _wait_captcha_passed(captcha) -> bool:
+    """优先以验证码弹层隐藏作为通过判定。"""
+    try:
+        captcha.wait_for(state="hidden", timeout=4500)
+        return True
+    except PlaywrightTimeoutError:
+        return False
 
 
 @pytest.fixture(scope="function")
@@ -54,12 +81,26 @@ def login_success_page(playwright_page: Page) -> Page:
             for i in range(3):
                 try:
                     logger.info(f"第{i + 1}次滑块验证")
-                    distance = get_slider_gap(page, img_loc)
-                    drag_slider_human(page, slider_loc, distance)
+                    candidates = get_slider_gap_candidates(page, img_loc)
+                    solved = False
+                    for base_offset, conf, method in candidates:
+                        fine_offsets = [base_offset, base_offset - 5, base_offset + 5]
+                        for offset in fine_offsets:
+                            if offset <= 0:
+                                continue
+                            logger.info(f"尝试滑块偏移: {offset}px (conf={conf:.2f}, method={method})")
+                            drag_slider_human(page, slider_loc, offset)
+                            if _wait_captcha_passed(captcha):
+                                solved = True
+                                logger.info("滑块验证通过")
+                                break
+                            _refresh_captcha(page)
+                        if solved:
+                            break
 
-                    captcha.wait_for(state="hidden", timeout=5000)
-                    logger.info("滑块验证通过")
-                    break
+                    if solved:
+                        break
+                    raise RuntimeError("当前轮次滑块未通过")
                 except Exception as e:
                     logger.warning(f"第{i + 1}次滑块验证失败")
                     allure.attach(
@@ -76,6 +117,7 @@ def login_success_page(playwright_page: Page) -> Page:
                             attachment_type=allure.attachment_type.PNG,
                         )
                         raise e
+                    _refresh_captcha(page)
                     page.wait_for_timeout(1000)
         # 验证登录成功
         # page.wait_for_url(f"{BASE_URL}/index", timeout=GLOBAL_TIMEOUT)

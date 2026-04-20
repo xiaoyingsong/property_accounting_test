@@ -1,4 +1,12 @@
 # test_cases/test_housing_unit.py
+import os
+import sys
+
+# 兼容直接执行该文件时的导入路径（python test_xxx.py）
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 import pytest
 from playwright.sync_api import Page
 from fixtures.web.login_fixture import login_success_page

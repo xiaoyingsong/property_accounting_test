@@ -1,0 +1,562 @@
+2026-04-20 10:38:59,141 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 10:39:03,436 - property_test - INFO - 切换语言为简体中文
+2026-04-20 10:39:05,063 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 10:39:06,735 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 10:39:07,307 - property_test - INFO - 点击登录按钮
+2026-04-20 10:39:07,328 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 10:39:07,328 - property_test - INFO - 第1次滑块验证
+2026-04-20 10:39:07,602 - property_test - INFO - 缺口定位：337px，拖动距离：323px
+2026-04-20 10:39:08,976 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:39:13,990 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 10:39:15,607 - property_test - INFO - 第2次滑块验证
+2026-04-20 10:39:15,871 - property_test - INFO - 缺口定位：323px，拖动距离：309px
+2026-04-20 10:39:17,265 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:39:22,291 - property_test - WARNING - 第2次滑块验证失败
+2026-04-20 10:39:23,897 - property_test - INFO - 第3次滑块验证
+2026-04-20 10:39:24,138 - property_test - INFO - 缺口定位：244px，拖动距离：230px
+2026-04-20 10:39:25,509 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:39:30,536 - property_test - WARNING - 第3次滑块验证失败
+2026-04-20 10:39:31,100 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-20 10:42:08,749 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 10:42:11,180 - property_test - INFO - 切换语言为简体中文
+2026-04-20 10:42:12,760 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 10:42:14,404 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 10:42:14,965 - property_test - INFO - 点击登录按钮
+2026-04-20 10:42:14,988 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 10:42:14,988 - property_test - INFO - 第1次滑块验证
+2026-04-20 10:42:15,273 - property_test - INFO - 缺口定位：293px，拖动距离：279px
+2026-04-20 10:42:15,273 - property_test - INFO - 尝试滑块偏移: 279px
+2026-04-20 10:42:34,864 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:42:40,297 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:42:40,297 - property_test - INFO - 尝试滑块偏移: 273px
+2026-04-20 10:42:59,840 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:43:05,293 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:43:05,293 - property_test - INFO - 尝试滑块偏移: 285px
+2026-04-20 10:43:24,747 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:43:24,764 - property_test - INFO - 滑块验证通过
+2026-04-20 10:43:24,765 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 10:43:25,189 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 10:43:25,189 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 10:43:27,764 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-20 10:43:27,994 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-20 10:43:28,640 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-20 10:43:28,641 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-20 10:43:59,158 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-20 10:56:42,726 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 10:56:45,498 - property_test - INFO - 切换语言为简体中文
+2026-04-20 10:56:47,053 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 10:56:48,673 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 10:56:49,231 - property_test - INFO - 点击登录按钮
+2026-04-20 10:56:49,255 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 10:56:49,255 - property_test - INFO - 第1次滑块验证
+2026-04-20 10:56:49,492 - property_test - INFO - 缺口定位：133px，拖动距离：119px，识别方式：pair(width=48)
+2026-04-20 10:56:49,493 - property_test - INFO - 尝试滑块偏移: 119px
+2026-04-20 10:57:00,253 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:57:05,660 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:57:05,660 - property_test - INFO - 尝试滑块偏移: 113px
+2026-04-20 10:57:16,137 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:57:21,554 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:57:21,554 - property_test - INFO - 尝试滑块偏移: 125px
+2026-04-20 10:57:32,546 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:57:37,996 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:57:37,996 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 10:57:39,672 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:57:40,700 - property_test - INFO - 第2次滑块验证
+2026-04-20 10:57:40,906 - property_test - INFO - 缺口定位：75px，拖动距离：61px，识别方式：pair(width=48)
+2026-04-20 10:57:40,906 - property_test - INFO - 尝试滑块偏移: 61px
+2026-04-20 10:57:50,291 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:57:55,719 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:57:55,719 - property_test - INFO - 尝试滑块偏移: 55px
+2026-04-20 10:58:05,138 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:58:10,589 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:58:10,589 - property_test - INFO - 尝试滑块偏移: 67px
+2026-04-20 10:58:19,928 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:58:25,357 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:58:25,357 - property_test - WARNING - 第2次滑块验证失败
+2026-04-20 10:58:26,857 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:58:27,878 - property_test - INFO - 第3次滑块验证
+2026-04-20 10:58:28,067 - property_test - INFO - 缺口定位：68px，拖动距离：54px，识别方式：pair(width=47)
+2026-04-20 10:58:28,067 - property_test - INFO - 尝试滑块偏移: 54px
+2026-04-20 10:58:37,429 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:58:42,875 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:58:42,875 - property_test - INFO - 尝试滑块偏移: 48px
+2026-04-20 10:58:52,313 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:58:57,760 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:58:57,760 - property_test - INFO - 尝试滑块偏移: 60px
+2026-04-20 10:59:07,229 - property_test - INFO - 滑块拖动完成
+2026-04-20 10:59:12,650 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 10:59:12,650 - property_test - WARNING - 第3次滑块验证失败
+2026-04-20 10:59:13,369 - property_test - ERROR - 滑块验证三次全部失败
+2026-04-20 11:00:14,410 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:00:17,658 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:00:19,213 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:00:20,838 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:00:21,401 - property_test - INFO - 点击登录按钮
+2026-04-20 11:00:21,420 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:00:21,420 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:00:21,669 - property_test - INFO - 滑块候选偏移: 119px(conf=1.00,pair(width=48)), 67px(conf=0.83,pair(width=52)), 223px(conf=0.80,pair(width=43)), 210px(conf=0.80,pair(width=56))
+2026-04-20 11:00:21,669 - property_test - INFO - 尝试滑块偏移: 119px (conf=1.00, method=pair(width=48))
+2026-04-20 11:00:32,388 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:00:37,816 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:00:37,816 - property_test - INFO - 尝试滑块偏移: 114px (conf=1.00, method=pair(width=48))
+2026-04-20 11:00:48,363 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:00:53,797 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:00:53,797 - property_test - INFO - 尝试滑块偏移: 124px (conf=1.00, method=pair(width=48))
+2026-04-20 11:01:04,907 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:01:10,362 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:01:10,362 - property_test - INFO - 尝试滑块偏移: 67px (conf=0.83, method=pair(width=52))
+2026-04-20 11:01:19,821 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:01:25,266 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:01:25,266 - property_test - INFO - 尝试滑块偏移: 62px (conf=0.83, method=pair(width=52))
+2026-04-20 11:01:34,709 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:01:40,136 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:01:40,137 - property_test - INFO - 尝试滑块偏移: 72px (conf=0.83, method=pair(width=52))
+2026-04-20 11:01:49,477 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:01:54,916 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:01:54,917 - property_test - INFO - 尝试滑块偏移: 223px (conf=0.80, method=pair(width=43))
+2026-04-20 11:02:12,701 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:02:18,135 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:02:18,135 - property_test - INFO - 尝试滑块偏移: 218px (conf=0.80, method=pair(width=43))
+2026-04-20 11:02:36,119 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:02:41,554 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:02:41,555 - property_test - INFO - 尝试滑块偏移: 228px (conf=0.80, method=pair(width=43))
+2026-04-20 11:02:59,996 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:03:05,440 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:03:05,440 - property_test - INFO - 尝试滑块偏移: 210px (conf=0.80, method=pair(width=56))
+2026-04-20 11:03:22,825 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:03:28,267 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:03:28,267 - property_test - INFO - 尝试滑块偏移: 205px (conf=0.80, method=pair(width=56))
+2026-04-20 11:03:45,097 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:03:50,541 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:03:50,541 - property_test - INFO - 尝试滑块偏移: 215px (conf=0.80, method=pair(width=56))
+2026-04-20 11:04:07,804 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:04:13,226 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:04:13,227 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 11:04:14,904 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:04:15,925 - property_test - INFO - 第2次滑块验证
+2026-04-20 11:04:16,150 - property_test - INFO - 滑块候选偏移: 231px(conf=1.00,pair(width=49)), 243px(conf=0.85,pair(width=48)), 280px(conf=0.76,pair(width=49)), 186px(conf=0.62,pair(width=45))
+2026-04-20 11:04:16,151 - property_test - INFO - 尝试滑块偏移: 231px (conf=1.00, method=pair(width=49))
+2026-04-20 11:04:34,394 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:04:39,838 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:04:39,838 - property_test - INFO - 尝试滑块偏移: 226px (conf=1.00, method=pair(width=49))
+2026-04-20 11:04:58,209 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:05:03,634 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:05:03,635 - property_test - INFO - 尝试滑块偏移: 236px (conf=1.00, method=pair(width=49))
+2026-04-20 11:05:22,431 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:05:27,871 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:05:27,871 - property_test - INFO - 尝试滑块偏移: 243px (conf=0.85, method=pair(width=48))
+2026-04-20 11:05:46,397 - property_test - WARNING - 第2次滑块验证失败
+2026-04-20 11:05:48,259 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:05:50,561 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:05:52,058 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:05:53,689 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:05:54,262 - property_test - INFO - 点击登录按钮
+2026-04-20 11:05:54,284 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:05:54,285 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:05:54,519 - property_test - INFO - 滑块候选偏移: 232px(conf=1.00,pair(width=48)), 280px(conf=0.83,pair(width=49)), 216px(conf=0.71,pair(width=46)), 262px(conf=0.67,pair(width=49))
+2026-04-20 11:05:54,520 - property_test - INFO - 尝试滑块偏移: 232px (conf=1.00, method=pair(width=48))
+2026-04-20 11:06:13,718 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:06:13,738 - property_test - INFO - 滑块验证通过
+2026-04-20 11:06:13,738 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 11:06:14,193 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 11:06:14,194 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 11:06:17,778 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-20 11:06:17,981 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-20 11:06:18,625 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-20 11:06:18,625 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-20 11:06:49,157 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-20 11:07:57,672 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:08:00,266 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:08:01,815 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:08:03,457 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:08:04,026 - property_test - INFO - 点击登录按钮
+2026-04-20 11:08:04,055 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:08:04,055 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:08:04,277 - property_test - INFO - 滑块候选偏移: 213px(conf=1.00,pair(width=53)), 255px(conf=0.83,pair(width=45)), 193px(conf=0.71,pair(width=47)), 169px(conf=0.67,pair(width=44))
+2026-04-20 11:08:04,278 - property_test - INFO - 尝试滑块偏移: 213px (conf=1.00, method=pair(width=53))
+2026-04-20 11:08:21,565 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:08:27,000 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:08:27,001 - property_test - INFO - 尝试滑块偏移: 208px (conf=1.00, method=pair(width=53))
+2026-04-20 11:08:44,345 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:08:49,797 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:08:49,798 - property_test - INFO - 尝试滑块偏移: 218px (conf=1.00, method=pair(width=53))
+2026-04-20 11:09:07,578 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:09:13,012 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:09:13,012 - property_test - INFO - 尝试滑块偏移: 255px (conf=0.83, method=pair(width=45))
+2026-04-20 11:09:32,552 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:09:38,000 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:09:38,001 - property_test - INFO - 尝试滑块偏移: 250px (conf=0.83, method=pair(width=45))
+2026-04-20 11:09:57,479 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:10:02,934 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:10:02,934 - property_test - INFO - 尝试滑块偏移: 260px (conf=0.83, method=pair(width=45))
+2026-04-20 11:10:22,431 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:10:27,871 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:10:27,871 - property_test - INFO - 尝试滑块偏移: 193px (conf=0.71, method=pair(width=47))
+2026-04-20 11:10:44,024 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:10:44,040 - property_test - INFO - 滑块验证通过
+2026-04-20 11:10:44,040 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 11:10:44,469 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 11:10:44,470 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 11:10:47,025 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-20 11:10:47,249 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-20 11:10:47,899 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-20 11:10:47,899 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-20 11:11:18,422 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-20 11:11:36,988 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:11:42,172 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:11:43,788 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:11:45,402 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:11:45,970 - property_test - INFO - 点击登录按钮
+2026-04-20 11:11:45,989 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:11:45,989 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:11:46,231 - property_test - INFO - 滑块候选偏移: 109px(conf=1.00,pair(width=51)), 229px(conf=0.71,pair(width=43)), 180px(conf=0.61,pair(width=49)), 251px(conf=0.59,pair(width=44))
+2026-04-20 11:11:46,231 - property_test - INFO - 尝试滑块偏移: 109px (conf=1.00, method=pair(width=51))
+2026-04-20 11:11:56,168 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:12:01,590 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:12:01,590 - property_test - INFO - 尝试滑块偏移: 104px (conf=1.00, method=pair(width=51))
+2026-04-20 11:12:11,599 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:12:17,051 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:12:17,052 - property_test - INFO - 尝试滑块偏移: 114px (conf=1.00, method=pair(width=51))
+2026-04-20 11:12:27,486 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:12:32,932 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:12:32,933 - property_test - INFO - 尝试滑块偏移: 229px (conf=0.71, method=pair(width=43))
+2026-04-20 11:12:51,369 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:12:56,812 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:12:56,812 - property_test - INFO - 尝试滑块偏移: 224px (conf=0.71, method=pair(width=43))
+2026-04-20 11:13:15,245 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:13:20,675 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:13:20,675 - property_test - INFO - 尝试滑块偏移: 234px (conf=0.71, method=pair(width=43))
+2026-04-20 11:13:39,515 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:13:44,967 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:13:44,967 - property_test - INFO - 尝试滑块偏移: 180px (conf=0.61, method=pair(width=49))
+2026-04-20 11:13:59,952 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:14:05,383 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:14:05,384 - property_test - INFO - 尝试滑块偏移: 175px (conf=0.61, method=pair(width=49))
+2026-04-20 11:14:19,832 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:14:25,278 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:14:25,278 - property_test - INFO - 尝试滑块偏移: 185px (conf=0.61, method=pair(width=49))
+2026-04-20 11:14:40,827 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:14:46,265 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:14:46,265 - property_test - INFO - 尝试滑块偏移: 251px (conf=0.59, method=pair(width=44))
+2026-04-20 11:15:05,713 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:15:11,142 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:15:11,143 - property_test - INFO - 尝试滑块偏移: 246px (conf=0.59, method=pair(width=44))
+2026-04-20 11:15:30,625 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:15:36,050 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:15:36,051 - property_test - INFO - 尝试滑块偏移: 256px (conf=0.59, method=pair(width=44))
+2026-04-20 11:15:55,515 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:16:00,970 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:16:00,971 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 11:16:02,672 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:16:03,694 - property_test - INFO - 第2次滑块验证
+2026-04-20 11:16:03,952 - property_test - INFO - 滑块候选偏移: 233px(conf=1.00,pair(width=48)), 260px(conf=0.74,pair(width=50)), 281px(conf=0.66,pair(width=46)), 118px(conf=0.37,pair(width=53))
+2026-04-20 11:16:03,952 - property_test - INFO - 尝试滑块偏移: 233px (conf=1.00, method=pair(width=48))
+2026-04-20 11:16:22,993 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:16:28,425 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:16:28,425 - property_test - INFO - 尝试滑块偏移: 228px (conf=1.00, method=pair(width=48))
+2026-04-20 11:16:46,942 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:16:52,363 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:16:52,364 - property_test - INFO - 尝试滑块偏移: 238px (conf=1.00, method=pair(width=48))
+2026-04-20 11:17:18,470 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:17:23,903 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:17:23,903 - property_test - INFO - 尝试滑块偏移: 260px (conf=0.74, method=pair(width=50))
+2026-04-20 11:17:43,346 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:17:48,796 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:17:48,796 - property_test - INFO - 尝试滑块偏移: 255px (conf=0.74, method=pair(width=50))
+2026-04-20 11:18:08,397 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:18:13,843 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:18:13,844 - property_test - INFO - 尝试滑块偏移: 265px (conf=0.74, method=pair(width=50))
+2026-04-20 11:18:33,322 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:18:38,770 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:18:38,770 - property_test - INFO - 尝试滑块偏移: 281px (conf=0.66, method=pair(width=46))
+2026-04-20 11:18:58,182 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:19:03,620 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:19:03,621 - property_test - INFO - 尝试滑块偏移: 276px (conf=0.66, method=pair(width=46))
+2026-04-20 11:19:23,220 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:19:28,655 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:19:28,655 - property_test - INFO - 尝试滑块偏移: 286px (conf=0.66, method=pair(width=46))
+2026-04-20 11:19:48,133 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:19:53,582 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:19:53,582 - property_test - INFO - 尝试滑块偏移: 118px (conf=0.37, method=pair(width=53))
+2026-04-20 11:20:04,329 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:20:04,346 - property_test - INFO - 滑块验证通过
+2026-04-20 11:20:04,346 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 11:20:05,082 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 11:20:05,082 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 11:20:07,621 - property_test - INFO - ✅ 项目设置中心子菜单展开成功
+2026-04-20 11:20:07,865 - property_test - INFO - 执行：点击房屋单元子菜单
+2026-04-20 11:20:08,604 - property_test - INFO - ✅ 进入房屋单元列表页成功
+2026-04-20 11:20:08,604 - property_test - INFO - === 冒烟用例执行完成：新增房屋单元提交成功 ===
+2026-04-20 11:20:39,116 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-20 11:20:52,319 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:21:05,215 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:21:06,770 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:21:08,406 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:21:08,967 - property_test - INFO - 点击登录按钮
+2026-04-20 11:21:08,987 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:21:08,988 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:21:09,239 - property_test - INFO - 滑块候选偏移: 215px(conf=1.00,pair(width=47)), 231px(conf=0.85,pair(width=45)), 167px(conf=0.72,pair(width=48)), 72px(conf=0.70,pair(width=44))
+2026-04-20 11:21:09,239 - property_test - INFO - 尝试滑块偏移: 215px (conf=1.00, method=pair(width=47))
+2026-04-20 11:21:26,647 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:21:32,077 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:21:32,077 - property_test - INFO - 尝试滑块偏移: 210px (conf=1.00, method=pair(width=47))
+2026-04-20 11:21:49,134 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:21:54,595 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:21:54,595 - property_test - INFO - 尝试滑块偏移: 220px (conf=1.00, method=pair(width=47))
+2026-04-20 11:22:12,295 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:22:17,742 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:22:17,742 - property_test - INFO - 尝试滑块偏移: 231px (conf=0.85, method=pair(width=45))
+2026-04-20 11:22:36,048 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:22:41,480 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:22:41,480 - property_test - INFO - 尝试滑块偏移: 226px (conf=0.85, method=pair(width=45))
+2026-04-20 11:22:59,789 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:23:05,214 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:23:05,214 - property_test - INFO - 尝试滑块偏移: 236px (conf=0.85, method=pair(width=45))
+2026-04-20 11:23:23,969 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:23:29,388 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:23:29,388 - property_test - INFO - 尝试滑块偏移: 167px (conf=0.72, method=pair(width=48))
+2026-04-20 11:23:43,096 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:23:48,528 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:23:48,528 - property_test - INFO - 尝试滑块偏移: 162px (conf=0.72, method=pair(width=48))
+2026-04-20 11:24:02,408 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:24:07,823 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:24:07,823 - property_test - INFO - 尝试滑块偏移: 172px (conf=0.72, method=pair(width=48))
+2026-04-20 11:24:22,148 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:24:27,562 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:24:27,563 - property_test - INFO - 尝试滑块偏移: 72px (conf=0.70, method=pair(width=44))
+2026-04-20 11:24:36,882 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:24:42,332 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:24:42,332 - property_test - INFO - 尝试滑块偏移: 67px (conf=0.70, method=pair(width=44))
+2026-04-20 11:24:51,705 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:24:57,134 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:24:57,134 - property_test - INFO - 尝试滑块偏移: 77px (conf=0.70, method=pair(width=44))
+2026-04-20 11:25:06,470 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:25:11,904 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:25:11,904 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 11:25:13,615 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:25:14,639 - property_test - INFO - 第2次滑块验证
+2026-04-20 11:25:14,829 - property_test - INFO - 滑块候选偏移: 167px(conf=1.00,pair(width=47)), 139px(conf=0.96,pair(width=48)), 101px(conf=0.87,pair(width=49)), 214px(conf=0.81,pair(width=45))
+2026-04-20 11:25:14,830 - property_test - INFO - 尝试滑块偏移: 167px (conf=1.00, method=pair(width=47))
+2026-04-20 11:25:28,772 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:25:34,208 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:25:34,208 - property_test - INFO - 尝试滑块偏移: 162px (conf=1.00, method=pair(width=47))
+2026-04-20 11:25:48,161 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:25:53,577 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:25:53,578 - property_test - INFO - 尝试滑块偏移: 172px (conf=1.00, method=pair(width=47))
+2026-04-20 11:26:08,042 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:26:13,464 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:26:13,465 - property_test - INFO - 尝试滑块偏移: 139px (conf=0.96, method=pair(width=48))
+2026-04-20 11:26:25,648 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:26:31,101 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:26:31,101 - property_test - INFO - 尝试滑块偏移: 134px (conf=0.96, method=pair(width=48))
+2026-04-20 11:26:42,657 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:26:48,094 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:26:48,095 - property_test - INFO - 尝试滑块偏移: 144px (conf=0.96, method=pair(width=48))
+2026-04-20 11:27:00,828 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:27:06,261 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:27:06,261 - property_test - INFO - 尝试滑块偏移: 101px (conf=0.87, method=pair(width=49))
+2026-04-20 11:27:15,665 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:27:21,117 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:27:21,117 - property_test - INFO - 尝试滑块偏移: 96px (conf=0.87, method=pair(width=49))
+2026-04-20 11:27:30,532 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:27:35,962 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:27:35,963 - property_test - INFO - 尝试滑块偏移: 106px (conf=0.87, method=pair(width=49))
+2026-04-20 11:27:45,803 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:27:51,246 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:27:51,246 - property_test - INFO - 尝试滑块偏移: 214px (conf=0.81, method=pair(width=45))
+2026-04-20 11:28:08,485 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:28:13,914 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:28:13,914 - property_test - INFO - 尝试滑块偏移: 209px (conf=0.81, method=pair(width=45))
+2026-04-20 11:28:29,563 - property_test - WARNING - 第2次滑块验证失败
+2026-04-20 11:28:36,842 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 11:28:38,953 - property_test - INFO - 切换语言为简体中文
+2026-04-20 11:28:40,502 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 11:28:42,107 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 11:28:42,654 - property_test - INFO - 点击登录按钮
+2026-04-20 11:28:42,668 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 11:28:42,669 - property_test - INFO - 第1次滑块验证
+2026-04-20 11:28:42,898 - property_test - INFO - 滑块候选偏移: 233px(conf=1.00,pair(width=48)), 260px(conf=0.82,pair(width=49)), 281px(conf=0.55,pair(width=46)), 192px(conf=0.35,pair(width=41))
+2026-04-20 11:28:42,898 - property_test - INFO - 尝试滑块偏移: 233px (conf=1.00, method=pair(width=48))
+2026-04-20 11:29:01,764 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:29:07,205 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:29:07,205 - property_test - INFO - 尝试滑块偏移: 228px (conf=1.00, method=pair(width=48))
+2026-04-20 11:29:25,565 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:29:30,990 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:29:30,990 - property_test - INFO - 尝试滑块偏移: 238px (conf=1.00, method=pair(width=48))
+2026-04-20 11:29:49,768 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:29:55,203 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:29:55,203 - property_test - INFO - 尝试滑块偏移: 260px (conf=0.82, method=pair(width=49))
+2026-04-20 11:30:14,638 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:30:20,087 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:30:20,087 - property_test - INFO - 尝试滑块偏移: 255px (conf=0.82, method=pair(width=49))
+2026-04-20 11:30:39,500 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:30:44,938 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:30:44,938 - property_test - INFO - 尝试滑块偏移: 265px (conf=0.82, method=pair(width=49))
+2026-04-20 11:31:04,327 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:31:09,745 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:31:09,745 - property_test - INFO - 尝试滑块偏移: 281px (conf=0.55, method=pair(width=46))
+2026-04-20 11:31:29,221 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:31:34,652 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:31:34,652 - property_test - INFO - 尝试滑块偏移: 276px (conf=0.55, method=pair(width=46))
+2026-04-20 11:31:53,975 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:31:59,407 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:31:59,407 - property_test - INFO - 尝试滑块偏移: 286px (conf=0.55, method=pair(width=46))
+2026-04-20 11:32:18,739 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:32:24,172 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:32:24,173 - property_test - INFO - 尝试滑块偏移: 192px (conf=0.35, method=pair(width=41))
+2026-04-20 11:32:40,173 - property_test - INFO - 滑块拖动完成
+2026-04-20 11:32:45,608 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 11:32:45,608 - property_test - INFO - 尝试滑块偏移: 187px (conf=0.35, method=pair(width=41))
+2026-04-20 11:32:51,657 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 13:57:14,445 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 13:57:14,445 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-20 14:00:55,475 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:00:56,205 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:03:22,237 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:03:22,930 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:06:02,059 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:06:02,759 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:07:10,378 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:07:11,122 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:09:13,243 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:09:13,957 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:28:36,025 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:28:36,748 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:36:40,801 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:36:41,025 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:42:18,557 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:42:19,262 - property_test - INFO - ✅ App失败截图已保存：D:\test\7link_V3_test\test_cases\allure-results\20260420_144219_app_test_cases_test_app_test_app_login.py_TestAppLogin_test_app_login_success.png
+2026-04-20 14:42:19,262 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:47:17,654 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:47:17,868 - property_test - INFO - ✅ App失败截图已保存：D:\test\7link_V3_test\test_cases\allure-results\20260420_144717_app_test_cases_test_app_test_app_login.py_TestAppLogin_test_app_login_success.png
+2026-04-20 14:47:17,868 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 14:57:24,144 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 14:57:24,375 - property_test - INFO - ✅ App失败截图已保存：D:\test\7link_V3_test\test_cases\allure-results\20260420_145724_app_test_cases_test_app_test_app_login.py_TestAppLogin_test_app_login_success.png
+2026-04-20 14:57:24,375 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 15:04:21,121 - property_test - ERROR - ❌ 用例 test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-20 15:04:21,348 - property_test - INFO - ✅ App失败截图已保存：D:\test\7link_V3_test\test_cases\allure-results\20260420_150421_app_test_cases_test_app_test_app_login.py_TestAppLogin_test_app_login_success.png
+2026-04-20 15:04:21,349 - property_test - INFO - ✅ App失败截图已附加到 Allure 报告：test_cases/test_app/test_app_login.py::TestAppLogin::test_app_login_success
+2026-04-20 15:08:16,494 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 15:08:20,148 - property_test - INFO - 切换语言为简体中文
+2026-04-20 15:08:21,659 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 15:08:23,262 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 15:08:23,838 - property_test - INFO - 点击登录按钮
+2026-04-20 15:08:23,862 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 15:08:23,862 - property_test - INFO - 第1次滑块验证
+2026-04-20 15:08:24,076 - property_test - INFO - 滑块候选偏移: 192px(conf=1.00,pair(width=46)), 101px(conf=0.90,pair(width=49)), 161px(conf=0.84,pair(width=49)), 125px(conf=0.75,pair(width=46))
+2026-04-20 15:08:24,076 - property_test - INFO - 尝试滑块偏移: 192px (conf=1.00, method=pair(width=46))
+2026-04-20 15:08:39,780 - property_test - INFO - 滑块拖动完成
+2026-04-20 15:08:45,205 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 15:08:45,205 - property_test - INFO - 尝试滑块偏移: 187px (conf=1.00, method=pair(width=46))
+2026-04-20 15:08:46,813 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 15:17:05,645 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 15:18:05,497 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 15:18:23,945 - property_test - INFO - 切换语言为简体中文
+2026-04-20 15:18:25,504 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 15:18:27,099 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 15:18:27,654 - property_test - INFO - 点击登录按钮
+2026-04-20 15:18:27,675 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 15:18:27,676 - property_test - INFO - 第1次滑块验证
+2026-04-20 15:18:27,871 - property_test - INFO - 滑块候选偏移: 66px(conf=0.00,fallback)
+2026-04-20 15:18:27,871 - property_test - INFO - 尝试滑块偏移: 66px (conf=0.00, method=fallback)
+2026-04-20 15:18:36,975 - property_test - INFO - 滑块拖动完成
+2026-04-20 15:18:42,368 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 15:18:42,369 - property_test - INFO - 尝试滑块偏移: 61px (conf=0.00, method=fallback)
+2026-04-20 15:18:51,572 - property_test - INFO - 滑块拖动完成
+2026-04-20 15:18:54,909 - property_test - INFO - 滑块验证通过
+2026-04-20 15:18:54,910 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 15:18:55,608 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 15:18:55,609 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 15:18:56,816 - property_test - ERROR - ❌ 用例 test_cases/test_web/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-20 15:18:56,834 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-20 15:18:56,856 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-20 16:10:10,744 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:10:13,097 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:10:14,580 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:10:16,196 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:10:16,742 - property_test - INFO - 点击登录按钮
+2026-04-20 16:10:16,758 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:10:16,758 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:10:16,977 - property_test - INFO - 滑块候选偏移: 109px(conf=1.00,pair(width=54)), 220px(conf=0.77,pair(width=49)), 254px(conf=0.77,pair(width=41)), 203px(conf=0.77,pair(width=51))
+2026-04-20 16:10:16,977 - property_test - INFO - 尝试滑块偏移: 109px (conf=1.00, method=pair(width=54))
+2026-04-20 16:10:26,679 - property_test - INFO - 滑块拖动完成
+2026-04-20 16:10:29,510 - property_test - INFO - 滑块验证通过
+2026-04-20 16:10:29,510 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 16:10:30,236 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 16:10:30,237 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 16:10:30,703 - property_test - ERROR - ❌ 用例 test_cases/test_web/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-20 16:10:30,717 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-20 16:10:30,735 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-20 16:13:37,057 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:13:38,590 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:13:40,167 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:13:41,988 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:13:42,544 - property_test - INFO - 点击登录按钮
+2026-04-20 16:13:42,560 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:13:42,561 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:13:42,752 - property_test - INFO - 滑块候选偏移: 137px(conf=1.00,pair(width=44)), 101px(conf=0.87,pair(width=48)), 90px(conf=0.80,pair(width=47)), 165px(conf=0.68,pair(width=48))
+2026-04-20 16:13:42,752 - property_test - INFO - 尝试滑块偏移: 137px (conf=1.00, method=pair(width=44))
+2026-04-20 16:13:54,809 - property_test - INFO - 滑块拖动完成
+2026-04-20 16:13:59,390 - property_test - INFO - 未找到可点击的验证码刷新按钮，继续下一次重试
+2026-04-20 16:13:59,390 - property_test - INFO - 尝试滑块偏移: 132px (conf=1.00, method=pair(width=44))
+2026-04-20 16:14:10,874 - property_test - INFO - 滑块拖动完成
+2026-04-20 16:14:10,889 - property_test - INFO - 滑块验证通过
+2026-04-20 16:14:10,890 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 16:14:11,076 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 16:14:11,077 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 16:14:11,833 - property_test - ERROR - ❌ 用例 test_cases/test_web/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-20 16:14:11,841 - property_test - ERROR - ❌ 失败截图失败：Target page, context or browser has been closed
+2026-04-20 16:14:11,851 - property_test - ERROR - ❌ Fixture后置清理失败：Target page, context or browser has been closed
+2026-04-20 16:16:11,294 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:16:13,010 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:16:14,553 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:16:16,159 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:16:16,727 - property_test - INFO - 点击登录按钮
+2026-04-20 16:16:16,748 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:16:16,748 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:16:16,964 - property_test - INFO - 滑块候选偏移: 130px(conf=1.00,pair(width=49)), 74px(conf=0.99,pair(width=46)), 179px(conf=0.53,pair(width=54)), 120px(conf=0.51,pair(width=40))
+2026-04-20 16:16:16,965 - property_test - INFO - 尝试滑块偏移: 130px (conf=1.00, method=pair(width=49))
+2026-04-20 16:16:28,355 - property_test - INFO - 滑块拖动完成
+2026-04-20 16:16:29,172 - property_test - INFO - 滑块验证通过
+2026-04-20 16:16:29,172 - property_test - INFO - ✅ 登录成功，进入首页
+2026-04-20 16:16:29,489 - property_test - INFO - === 开始执行冒烟用例：新增房屋单元提交成功 ===
+2026-04-20 16:16:29,490 - property_test - INFO - 执行：点击项目设置中心菜单
+2026-04-20 16:16:39,515 - property_test - ERROR - ❌ 用例 test_cases/test_web/test_base.py::test_tc_p0_smoke_add_housing_unit_success 执行失败，开始自动截图
+2026-04-20 16:16:39,842 - property_test - INFO - ✅ Web失败截图已保存：D:\test\7link_V3_test\test_cases\allure-results\20260420_161639_web_test_cases_test_web_test_base.py_test_tc_p0_smoke_add_housing_unit_success.png
+2026-04-20 16:16:39,842 - property_test - INFO - ✅ Web失败截图已附加到 Allure 报告：test_cases/test_web/test_base.py::test_tc_p0_smoke_add_housing_unit_success
+2026-04-20 16:17:10,353 - property_test - ERROR - ❌ Fixture后置清理失败：Timeout 30000ms exceeded.
+2026-04-20 16:20:21,409 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:20:23,347 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:20:24,901 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:20:26,515 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:20:27,131 - property_test - INFO - 点击登录按钮
+2026-04-20 16:20:27,153 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:20:27,154 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:20:27,357 - property_test - INFO - 滑块候选偏移: 233px(conf=1.00,pair(width=50)), 270px(conf=0.84,pair(width=42)), 283px(conf=0.79,pair(width=44)), 260px(conf=0.65,pair(width=52))
+2026-04-20 16:20:27,358 - property_test - INFO - 尝试滑块偏移: 233px (conf=1.00, method=pair(width=50))
+2026-04-20 16:20:35,033 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 16:22:06,377 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:22:09,695 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:22:11,251 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:22:12,850 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:22:13,443 - property_test - INFO - 点击登录按钮
+2026-04-20 16:22:13,461 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:22:13,461 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:22:13,668 - property_test - INFO - 滑块候选偏移: 74px(conf=1.00,pair(width=46)), 130px(conf=0.83,pair(width=50)), 243px(conf=0.66,pair(width=45)), 256px(conf=0.57,pair(width=47))
+2026-04-20 16:22:13,668 - property_test - INFO - 尝试滑块偏移: 74px (conf=1.00, method=pair(width=46))
+2026-04-20 16:22:22,884 - property_test - INFO - 滑块拖动完成
+2026-04-20 16:22:28,293 - property_test - INFO - 已刷新滑块验证码: #pane-email .verifybox .verify-refresh
+2026-04-20 16:22:28,293 - property_test - INFO - 尝试滑块偏移: 69px (conf=1.00, method=pair(width=46))
+2026-04-20 16:22:30,471 - property_test - WARNING - 第1次滑块验证失败
+2026-04-20 16:26:49,483 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:27:02,105 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:28:41,042 - property_test - INFO - === 开始执行登录Fixture ===
+2026-04-20 16:28:45,143 - property_test - INFO - 切换语言为简体中文
+2026-04-20 16:28:46,732 - property_test - INFO - 切换到邮箱登录标签页
+2026-04-20 16:28:48,341 - property_test - INFO - 输入账号密码（管理员账号）
+2026-04-20 16:28:48,898 - property_test - INFO - 点击登录按钮
+2026-04-20 16:28:48,916 - property_test - INFO - 检测到滑块验证弹窗
+2026-04-20 16:28:48,917 - property_test - INFO - 第1次滑块验证
+2026-04-20 16:28:49,158 - property_test - INFO - 滑块候选偏移: 233px(conf=1.00,pair(width=47)), 247px(conf=0.96,pair(width=45)), 280px(conf=0.79,pair(width=49)), 201px(conf=0.75,pair(width=46))
+2026-04-20 16:28:49,158 - property_test - INFO - 尝试滑块偏移: 233px (conf=1.00, method=pair(width=47))
+2026-04-20 16:29:07,363 - property_test - WARNING - 第1次滑块验证失败

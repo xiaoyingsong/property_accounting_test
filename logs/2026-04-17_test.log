@@ -1,0 +1,20 @@
+2026-04-17 15:30:35,511 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:30:35,511 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:37:13,093 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:37:13,094 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:39:55,601 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:39:55,602 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:40:50,915 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:40:50,915 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:47:20,273 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:47:20,274 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:47:53,243 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:47:53,243 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:51:20,668 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:51:20,668 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 15:51:51,158 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::test_app_login_success 执行失败，开始自动截图
+2026-04-17 15:51:51,159 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 16:38:38,757 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-17 16:38:38,757 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
+2026-04-17 16:46:31,816 - property_test - ERROR - ❌ 用例 test_cases/app/test_app_login.py::TestAppLogin::test_app_login_success 执行失败，开始自动截图
+2026-04-17 16:46:37,434 - property_test - ERROR - ❌ 失败截图失败：'login_success_page'
