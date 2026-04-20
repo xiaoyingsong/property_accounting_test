@@ -33,5 +33,5 @@ def pytest_runtest_makereport(item, call):
             allure.attach(f"截图失败：{str(e)}", name="截图异常", attachment_type=allure.attachment_type.TEXT)
 
 # pytest_plugins = [
-#     "fixtures.app.app_fixture"  # 全局导入 APP 夹具
+#     "fixtures.test_app.app_fixture"  # 全局导入 APP 夹具
 # ]
